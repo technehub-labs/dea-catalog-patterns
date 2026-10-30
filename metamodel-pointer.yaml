@@ -35,6 +35,7 @@ links:
 entities:
   - building_block: L5-technology
     class_alias: TEC
+    discriminator: technology_kind
     entity_id: dea:entity-technology
     layer: L5
 
