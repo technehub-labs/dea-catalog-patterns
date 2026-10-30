@@ -1,34 +1,39 @@
-# Metamodel Pointer — Architecture Pattern (+1 shared)
-# Auto-generated from OpenDEAM v0.2.1 (dea-architecture-framework, ADR-0002).
-# Do not edit manually — allocation changes go through the root model
-# (structural: ADR + minor bump; additive: PR + patch bump).
-metamodel:
-  version: v0.2.1
-  entity_id: dea:entity-architecture-pattern
-  class_alias: AP
-  layer: L2
-  building_block: L2-reusable-knowledge
-  discriminator: pattern_kind
-  viewer_url: "https://technehub-labs.github.io/metamodel/?entity=AP"
-
-# Additional entities hosted in this repo (shared catalog_repo, ADR-0002 D6):
-entities:
-  - entity_id: dea:entity-technology
-    class_alias: TEC
-    layer: L5
-    building_block: L5-technology
-    discriminator: technology_kind
-
-catalog:
-  name: Architecture Pattern
-  repo: technehub-labs/dea-catalog-patterns
-  status: planned
-
+# Metamodel Pointer — Architecture Pattern
+#
+# Two consumers, two blocks (see FOUNDATIONS §5):
+#   - the top-level identity keys are consumed by the vendored
+#     regenerate_catalog.py to build CATALOG.yaml's catalog block;
+#   - the `metamodel:` allocation block is validated by
+#     dea-architecture-framework validate-against-model.yml
+#     against the pinned root-model ref (v0.8.0), and asserted
+#     locally by scripts/check_pointer.py.
+#
+# Allocation changes go through the root model, not this file.
+id: dea:catalog-patterns
+name: Architecture Pattern
+abbreviation: AP
+version: 0.1.0
+status: active
+metamodel_version: 1.0.0
+owner: TechNeHub Labs
 description: |
   A reusable architecture pattern (e.g. API Gateway, Event Sourcing, CQRS) that resolves a recurring design problem.
-
+metamodel:
+  building_block: L2-reusable-knowledge
+  class_alias: AP
+  entity_id: dea:entity-architecture-pattern
+  layer: L2
+  version: v0.8.0
+  viewer_url: https://technehub-labs.github.io/metamodel/?entity=AP
 links:
   metamodel_repo: https://github.com/technehub-labs/dea-metamodel
   root_model: https://github.com/technehub-labs/dea-architecture-framework
-  viewer: "https://technehub-labs.github.io/metamodel/?entity=AP"
+  viewer: https://technehub-labs.github.io/metamodel/?entity=AP
   github: https://github.com/technehub-labs/dea-catalog-patterns
+
+entities:
+  building_block: L5-technology
+  class_alias: TEC
+  entity_id: dea:entity-technology
+  layer: L5
+  
