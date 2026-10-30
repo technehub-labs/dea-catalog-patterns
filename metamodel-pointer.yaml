@@ -21,6 +21,7 @@ description: |
 metamodel:
   building_block: L2-reusable-knowledge
   class_alias: AP
+  discriminator: pattern_kind
   entity_id: dea:entity-architecture-pattern
   layer: L2
   version: v0.8.0
