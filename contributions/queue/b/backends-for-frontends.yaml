@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -10,7 +10,8 @@ description: 'Backends for Frontends — published architecture pattern: Create 
 problem: Create separate backend services to be consumed by specific front-end applications or interfaces.
 solution: One shared backend cannot serve desktop, mobile, and web clients well because each needs different
   payloads and shapes.
-applicability: Microservice systems with multiple client types and bespoke aggregation needs.
+applicability:
+- Microservice systems with multiple client types and bespoke aggregation needs.
 evidence:
   sources:
   - kind: published-document
@@ -23,3 +24,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: backends-for-frontends
+assigned_id: dea:architecture-pattern-backends-for-frontends-2u9dcp
+admitted: '2026-11-14'

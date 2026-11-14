@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -11,7 +11,8 @@ problem: Implement a facade or adapter layer between a modern application and a 
   domain models clean.
 solution: Two subsystems with different domain models must interoperate without either adopting the other's
   model.
-applicability: Migrating legacy systems incrementally; integrating third-party or external systems.
+applicability:
+- Migrating legacy systems incrementally; integrating third-party or external systems.
 evidence:
   sources:
   - kind: published-document
@@ -24,3 +25,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: anti-corruption-layer
+assigned_id: dea:architecture-pattern-anti-corruption-layer-gkkk3m
+admitted: '2026-11-14'

@@ -1,24 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Platform / Certified Kubernetes - Distribution / Lenovo xCloud Container
-  Platform
+source_ref: CNCF Landscape / Platform / Certified Kubernetes - Distribution / Lenovo
+  xCloud Container Platform
 type: Technology
 name: Lenovo xCloud Container Platform
-description: Lenovo xCloud Container Platform — Certified Kubernetes - Distribution entry in the CNCF
-  Landscape; homepage https://xcloud.lenovo.com.cn/product/detail/product_detail_1. technology_category
-  is provisional.
+description: Lenovo xCloud Container Platform — Certified Kubernetes - Distribution
+  entry in the CNCF Landscape; homepage https://xcloud.lenovo.com.cn/product/detail/product_detail_1.
+  technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes - Distribution
-      / Lenovo xCloud Container Platform)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes
+      - Distribution / Lenovo xCloud Container Platform)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - platform
 slug: lenovo-xcloud-container-platform
+assigned_id: dea:technology-lenovo-xcloud-container-platform-5hhsj3
+admitted: '2026-11-14'

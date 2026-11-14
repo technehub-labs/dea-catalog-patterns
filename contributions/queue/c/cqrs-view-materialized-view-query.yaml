@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'CQRS View / Materialized View Query — published architecture pat
   materialized views that pre-join data from multiple services.'
 problem: Maintain one or more materialized views that pre-join data from multiple services.
 solution: API composition is too chatty for frequent complex queries.
-applicability: Frequent cross-service queries needing near-real-time views.
+applicability:
+- Frequent cross-service queries needing near-real-time views.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - microservices-io
 slug: cqrs-view-materialized-view-query
+assigned_id: dea:architecture-pattern-cqrs-view-materialized-view-query-qusr6t
+admitted: '2026-11-14'

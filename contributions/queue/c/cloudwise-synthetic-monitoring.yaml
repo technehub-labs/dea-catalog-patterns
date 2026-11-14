@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Observability and Analysis / Observability / Cloudwise Synthetic Monitoring
+source_ref: CNCF Landscape / Observability and Analysis / Observability / Cloudwise
+  Synthetic Monitoring
 type: Technology
 name: Cloudwise Synthetic Monitoring
-description: Cloudwise Synthetic Monitoring — Observability entry in the CNCF Landscape; homepage https://www.jiankongbao.com/.
-  technology_category is provisional.
+description: Cloudwise Synthetic Monitoring — Observability entry in the CNCF Landscape;
+  homepage https://www.jiankongbao.com/. technology_category is provisional.
 technology_category: monitoring
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Observability and Analysis / Observability
-      / Cloudwise Synthetic Monitoring)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Observability and Analysis
+      / Observability / Cloudwise Synthetic Monitoring)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - monitoring
 - observability-and-an
 slug: cloudwise-synthetic-monitoring
+assigned_id: dea:technology-cloudwise-synthetic-monitoring-cg3h9p
+admitted: '2026-11-14'

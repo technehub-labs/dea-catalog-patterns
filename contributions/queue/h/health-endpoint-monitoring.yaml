@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Health Endpoint Monitoring — published architecture pattern: Imp
   in an application that external tools can access at regular intervals.'
 problem: Implement functional checks in an application that external tools can access at regular intervals.
 solution: Failures invisible to external monitoring are discovered only by users.
-applicability: Services whose dependencies must be probed end-to-end.
+applicability:
+- Services whose dependencies must be probed end-to-end.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: health-endpoint-monitoring
+assigned_id: dea:architecture-pattern-health-endpoint-monitoring-yghaqv
+admitted: '2026-11-14'

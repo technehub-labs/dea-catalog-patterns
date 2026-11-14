@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Orchestration & Management / Scheduling & Orchestration / Amazon Elastic
-  Container Service (ECS)
+source_ref: CNCF Landscape / Orchestration & Management / Scheduling & Orchestration
+  / Amazon Elastic Container Service (ECS)
 type: Technology
 name: Amazon Elastic Container Service (ECS)
-description: Amazon Elastic Container Service (ECS) — Scheduling & Orchestration entry in the CNCF Landscape;
-  homepage https://aws.amazon.com/ecs/. technology_category is provisional.
+description: Amazon Elastic Container Service (ECS) — Scheduling & Orchestration entry
+  in the CNCF Landscape; homepage https://aws.amazon.com/ecs/. technology_category
+  is provisional.
 technology_category: orchestration
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management / Scheduling &
-      Orchestration / Amazon Elastic Container Service (ECS))'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management
+      / Scheduling & Orchestration / Amazon Elastic Container Service (ECS))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - orchestration
 - orchestration-manage
 slug: amazon-elastic-container-service-ecs
+assigned_id: dea:technology-amazon-elastic-container-service-ecs-vgz9vn
+admitted: '2026-11-14'

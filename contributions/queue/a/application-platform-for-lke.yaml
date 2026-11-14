@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Platform / PaaS/Container Service / Application Platform for LKE
+source_ref: CNCF Landscape / Platform / PaaS/Container Service / Application Platform
+  for LKE
 type: Technology
 name: Application Platform for LKE
-description: Application Platform for LKE — PaaS/Container Service entry in the CNCF Landscape; homepage
-  https://apl-docs.net. technology_category is provisional.
+description: Application Platform for LKE — PaaS/Container Service entry in the CNCF
+  Landscape; homepage https://apl-docs.net. technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / PaaS/Container Service / Application
-      Platform for LKE)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / PaaS/Container
+      Service / Application Platform for LKE)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - platform
 slug: application-platform-for-lke
+assigned_id: dea:technology-application-platform-for-lke-pbscc4
+admitted: '2026-11-14'

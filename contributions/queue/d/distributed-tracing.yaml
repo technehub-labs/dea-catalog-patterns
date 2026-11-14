@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Distributed Tracing — published architecture pattern: Instrument
   trees with correlation ids.'
 problem: Instrument services to record call trees with correlation ids.
 solution: Cross-service latency and failures are invisible without correlated traces.
-applicability: Request flows spanning many services.
+applicability:
+- Request flows spanning many services.
 evidence:
   sources:
   - kind: published-document
@@ -21,3 +22,5 @@ tags:
 - architecture-pattern
 - microservices-io
 slug: distributed-tracing
+assigned_id: dea:architecture-pattern-distributed-tracing-g85kyn
+admitted: '2026-11-14'

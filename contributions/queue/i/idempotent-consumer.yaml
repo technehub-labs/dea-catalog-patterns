@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Idempotent Consumer — published architecture pattern: Track cons
   are safe.'
 problem: Track consumed messages so replays are safe.
 solution: At-least-once delivery delivers duplicates.
-applicability: Any event-driven consumer.
+applicability:
+- Any event-driven consumer.
 evidence:
   sources:
   - kind: published-document
@@ -21,3 +22,5 @@ tags:
 - architecture-pattern
 - microservices-io
 slug: idempotent-consumer
+assigned_id: dea:architecture-pattern-idempotent-consumer-ejgery
+admitted: '2026-11-14'

@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Serverless / Installable Platform / Apache OpenServerless
 type: Technology
 name: Apache OpenServerless
-description: Apache OpenServerless — Installable Platform entry in the CNCF Landscape; homepage https://openserverless.apache.org/.
-  technology_category is provisional.
+description: Apache OpenServerless — Installable Platform entry in the CNCF Landscape;
+  homepage https://openserverless.apache.org/. technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Serverless / Installable Platform / Apache
-      OpenServerless)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Serverless / Installable
+      Platform / Apache OpenServerless)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - serverless
 slug: apache-openserverless
+assigned_id: dea:technology-apache-openserverless-8cr48z
+admitted: '2026-11-14'

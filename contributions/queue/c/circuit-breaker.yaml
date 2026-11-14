@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -10,7 +10,8 @@ description: 'Circuit Breaker — published architecture pattern: Handle faults 
 problem: Handle faults that might take a variable amount of time to recover from when connecting to a
   remote service.
 solution: Repeated calls to a failing service waste resources and propagate failure.
-applicability: Network calls where transient failure can cascade; service meshes and clients alike.
+applicability:
+- Network calls where transient failure can cascade; service meshes and clients alike.
 evidence:
   sources:
   - kind: published-document
@@ -23,3 +24,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: circuit-breaker
+assigned_id: dea:architecture-pattern-circuit-breaker-zu4ykq
+admitted: '2026-11-14'

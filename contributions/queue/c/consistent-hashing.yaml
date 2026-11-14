@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Consistent Hashing — published architecture pattern: Distribute 
   moves only a minimal set.'
 problem: Distribute keys across nodes so rebalancing moves only a minimal set.
 solution: Naive modulo sharding moves nearly everything on resize.
-applicability: Cache rings and distributed stores.
+applicability:
+- Cache rings and distributed stores.
 evidence:
   sources:
   - kind: published-document
@@ -21,3 +22,5 @@ tags:
 - architecture-pattern
 - cloud-google-com
 slug: consistent-hashing
+assigned_id: dea:architecture-pattern-consistent-hashing-vvsvqs
+admitted: '2026-11-14'

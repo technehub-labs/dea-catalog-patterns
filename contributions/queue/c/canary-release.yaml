@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Canary Release — published architecture pattern: Route a small p
   the new version before full rollout.'
 problem: Route a small percentage of traffic to the new version before full rollout.
 solution: Full-rollout defects are too costly.
-applicability: Progressive delivery for high-traffic services.
+applicability:
+- Progressive delivery for high-traffic services.
 evidence:
   sources:
   - kind: published-document
@@ -21,3 +22,5 @@ tags:
 - architecture-pattern
 - cloud-google-com
 slug: canary-release
+assigned_id: dea:architecture-pattern-canary-release-ny6wc2
+admitted: '2026-11-14'

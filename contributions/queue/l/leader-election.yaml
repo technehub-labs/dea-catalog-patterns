@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Leader Election — published architecture pattern: Coordinate dis
   one instance as leader.'
 problem: Coordinate distributed tasks by electing one instance as leader.
 solution: Concurrent instances performing the same coordination task conflict.
-applicability: Scheduled jobs or shared-resource coordination across replicas.
+applicability:
+- Scheduled jobs or shared-resource coordination across replicas.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: leader-election
+assigned_id: dea:architecture-pattern-leader-election-kdxb9w
+admitted: '2026-11-14'

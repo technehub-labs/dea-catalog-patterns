@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Immutable Infrastructure — published architecture pattern: Repla
   them in place.'
 problem: Replace servers instead of mutating them in place.
 solution: Configuration drift breaks reproducibility.
-applicability: Image-based deployments (golden images).
+applicability:
+- Image-based deployments (golden images).
 evidence:
   sources:
   - kind: published-document
@@ -21,3 +22,5 @@ tags:
 - architecture-pattern
 - cloud-google-com
 slug: immutable-infrastructure
+assigned_id: dea:architecture-pattern-immutable-infrastructure-6sf3fc
+admitted: '2026-11-14'

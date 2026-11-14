@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Choreography — published architecture pattern: Have each service
   react without a central orchestrator.'
 problem: Have each service publish events; consumers react without a central orchestrator.
 solution: Central orchestration becomes a bottleneck and single point of coupling across services.
-applicability: Loosely coupled event-driven flows where steps can react independently.
+applicability:
+- Loosely coupled event-driven flows where steps can react independently.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: choreography
+assigned_id: dea:architecture-pattern-choreography-d4fz84
+admitted: '2026-11-14'

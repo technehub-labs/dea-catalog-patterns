@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / App Definition and Development / Streaming & Messaging / Drasi
+source_ref: CNCF Landscape / App Definition and Development / Streaming & Messaging
+  / Drasi
 type: Technology
 name: Drasi
-description: Drasi — Streaming & Messaging entry in the CNCF Landscape (sandbox project); homepage https://drasi.io.
-  technology_category is provisional.
+description: Drasi — Streaming & Messaging entry in the CNCF Landscape (sandbox project);
+  homepage https://drasi.io. technology_category is provisional.
 technology_category: framework
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: App Definition and Development / Streaming
-      & Messaging / Drasi)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: App Definition and Development
+      / Streaming & Messaging / Drasi)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - framework
 - app-definition-and-d
 slug: drasi
+assigned_id: dea:technology-drasi-yhttsz
+admitted: '2026-11-14'

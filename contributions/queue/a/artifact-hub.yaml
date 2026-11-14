@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / App Definition and Development / Application Definition & Image Build / Artifact
-  Hub
+source_ref: CNCF Landscape / App Definition and Development / Application Definition
+  & Image Build / Artifact Hub
 type: Technology
 name: Artifact Hub
-description: Artifact Hub — Application Definition & Image Build entry in the CNCF Landscape (incubating
-  project); homepage https://artifacthub.io. technology_category is provisional.
+description: Artifact Hub — Application Definition & Image Build entry in the CNCF
+  Landscape (incubating project); homepage https://artifacthub.io. technology_category
+  is provisional.
 technology_category: framework
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: App Definition and Development / Application
-      Definition & Image Build / Artifact Hub)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: App Definition and Development
+      / Application Definition & Image Build / Artifact Hub)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - framework
 - app-definition-and-d
 slug: artifact-hub
+assigned_id: dea:technology-artifact-hub-ehhky2
+admitted: '2026-11-14'

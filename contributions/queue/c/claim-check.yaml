@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Claim Check — published architecture pattern: Reduce message siz
   externally and passing a reference in the message.'
 problem: Reduce message size by storing large payloads externally and passing a reference in the message.
 solution: Messaging infrastructure has message-size limits that payloads exceed.
-applicability: Event/message payloads carrying files or blobs.
+applicability:
+- Event/message payloads carrying files or blobs.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: claim-check
+assigned_id: dea:architecture-pattern-claim-check-cju898
+admitted: '2026-11-14'

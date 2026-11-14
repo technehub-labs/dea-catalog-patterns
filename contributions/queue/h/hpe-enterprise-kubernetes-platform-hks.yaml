@@ -1,24 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Platform / Certified Kubernetes - Distribution / HPE Enterprise Kubernetes
-  Platform (HKS)
+source_ref: CNCF Landscape / Platform / Certified Kubernetes - Distribution / HPE
+  Enterprise Kubernetes Platform (HKS)
 type: Technology
 name: HPE Enterprise Kubernetes Platform (HKS)
-description: HPE Enterprise Kubernetes Platform (HKS) — Certified Kubernetes - Distribution entry in the
-  CNCF Landscape; homepage https://www.hpe.com/us/en/morpheus-enterprise-software.html. technology_category
-  is provisional.
+description: HPE Enterprise Kubernetes Platform (HKS) — Certified Kubernetes - Distribution
+  entry in the CNCF Landscape; homepage https://www.hpe.com/us/en/morpheus-enterprise-software.html.
+  technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes - Distribution
-      / HPE Enterprise Kubernetes Platform (HKS))'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes
+      - Distribution / HPE Enterprise Kubernetes Platform (HKS))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - platform
 slug: hpe-enterprise-kubernetes-platform-hks
+assigned_id: dea:technology-hpe-enterprise-kubernetes-platform-hks-pfynea
+admitted: '2026-11-14'

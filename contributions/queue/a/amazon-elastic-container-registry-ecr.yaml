@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Provisioning / Container Registry / Amazon Elastic Container Registry (ECR)
+source_ref: CNCF Landscape / Provisioning / Container Registry / Amazon Elastic Container
+  Registry (ECR)
 type: Technology
 name: Amazon Elastic Container Registry (ECR)
-description: Amazon Elastic Container Registry (ECR) — Container Registry entry in the CNCF Landscape;
-  homepage https://aws.amazon.com/ecr/. technology_category is provisional.
+description: Amazon Elastic Container Registry (ECR) — Container Registry entry in
+  the CNCF Landscape; homepage https://aws.amazon.com/ecr/. technology_category is
+  provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Provisioning / Container Registry / Amazon
-      Elastic Container Registry (ECR))'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Provisioning / Container
+      Registry / Amazon Elastic Container Registry (ECR))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - provisioning
 slug: amazon-elastic-container-registry-ecr
+assigned_id: dea:technology-amazon-elastic-container-registry-ecr-y4xvca
+admitted: '2026-11-14'

@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Database per Service — published architecture pattern: Keep each
   data private to that service.'
 problem: Keep each microservice's persistent data private to that service.
 solution: Shared databases couple services at the schema level.
-applicability: Microservice architectures requiring independent deployability.
+applicability:
+- Microservice architectures requiring independent deployability.
 evidence:
   sources:
   - kind: published-document
@@ -21,3 +22,5 @@ tags:
 - architecture-pattern
 - microservices-io
 slug: database-per-service
+assigned_id: dea:architecture-pattern-database-per-service-wvzchw
+admitted: '2026-11-14'

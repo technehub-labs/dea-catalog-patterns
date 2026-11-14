@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / CNCF Members / End User Supporter and Contributor / i Cubed Systems, Inc.
-  (supporter)
+source_ref: CNCF Landscape / CNCF Members / End User Supporter and Contributor / i
+  Cubed Systems, Inc. (supporter)
 type: Technology
 name: i Cubed Systems, Inc. (supporter)
-description: i Cubed Systems, Inc. (supporter) — End User Supporter and Contributor entry in the CNCF
-  Landscape; homepage https://www.i3-systems.com/. technology_category is provisional.
+description: i Cubed Systems, Inc. (supporter) — End User Supporter and Contributor
+  entry in the CNCF Landscape; homepage https://www.i3-systems.com/. technology_category
+  is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: CNCF Members / End User Supporter and Contributor
-      / i Cubed Systems, Inc. (supporter))'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: CNCF Members / End User
+      Supporter and Contributor / i Cubed Systems, Inc. (supporter))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - cncf-members
 slug: i-cubed-systems-inc-supporter
+assigned_id: dea:technology-i-cubed-systems-inc-supporter-u4x3pq
+admitted: '2026-11-14'

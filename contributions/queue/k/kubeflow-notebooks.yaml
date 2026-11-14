@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Data / Data Science / Kubeflow Notebooks
 type: Technology
 name: Kubeflow Notebooks
-description: Kubeflow Notebooks — Data Science entry in the CNCF Landscape; homepage https://www.kubeflow.org/docs/components/notebooks.
-  technology_category is provisional.
+description: Kubeflow Notebooks — Data Science entry in the CNCF Landscape; homepage
+  https://www.kubeflow.org/docs/components/notebooks. technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Data / Data Science / Kubeflow Notebooks)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Data / Data Science /
+      Kubeflow Notebooks)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - data
 slug: kubeflow-notebooks
+assigned_id: dea:technology-kubeflow-notebooks-42exdc
+admitted: '2026-11-14'

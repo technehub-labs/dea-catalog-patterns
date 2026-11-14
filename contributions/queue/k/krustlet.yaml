@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Runtime / Container Runtime / Krustlet
 type: Technology
 name: Krustlet
-description: Krustlet — Container Runtime entry in the CNCF Landscape (archived project); homepage https://krustlet.dev.
-  technology_category is provisional.
+description: Krustlet — Container Runtime entry in the CNCF Landscape (archived project);
+  homepage https://krustlet.dev. technology_category is provisional.
 technology_category: runtime
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Runtime / Container Runtime / Krustlet)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Runtime / Container Runtime
+      / Krustlet)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - runtime
 - runtime
 slug: krustlet
+assigned_id: dea:technology-krustlet-2r3h4c
+admitted: '2026-11-14'

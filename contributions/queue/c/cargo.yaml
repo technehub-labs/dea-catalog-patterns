@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Wasm / Tooling / cargo
 type: Technology
 name: cargo
-description: cargo — Tooling entry in the CNCF Landscape; homepage https://doc.rust-lang.org/cargo/. technology_category
-  is provisional.
+description: cargo — Tooling entry in the CNCF Landscape; homepage https://doc.rust-lang.org/cargo/.
+  technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
     reference: 'https://landscape.cncf.io/ (CNCF Landscape: Wasm / Tooling / cargo)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - wasm
 slug: cargo
+assigned_id: dea:technology-cargo-hyqr6c
+admitted: '2026-11-14'

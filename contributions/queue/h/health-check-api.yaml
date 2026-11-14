@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Health Check API — published architecture pattern: Expose an end
   health.'
 problem: Expose an endpoint that reports service health.
 solution: Load balancers and orchestrators need liveness signals.
-applicability: Every deployable service behind orchestration.
+applicability:
+- Every deployable service behind orchestration.
 evidence:
   sources:
   - kind: published-document
@@ -21,3 +22,5 @@ tags:
 - architecture-pattern
 - microservices-io
 slug: health-check-api
+assigned_id: dea:architecture-pattern-health-check-api-d3s4jv
+admitted: '2026-11-14'

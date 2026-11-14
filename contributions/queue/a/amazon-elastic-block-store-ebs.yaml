@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Runtime / Cloud Native Storage / Amazon Elastic Block Store (EBS)
+source_ref: CNCF Landscape / Runtime / Cloud Native Storage / Amazon Elastic Block
+  Store (EBS)
 type: Technology
 name: Amazon Elastic Block Store (EBS)
-description: Amazon Elastic Block Store (EBS) — Cloud Native Storage entry in the CNCF Landscape; homepage
-  https://aws.amazon.com/ebs/. technology_category is provisional.
+description: Amazon Elastic Block Store (EBS) — Cloud Native Storage entry in the
+  CNCF Landscape; homepage https://aws.amazon.com/ebs/. technology_category is provisional.
 technology_category: runtime
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Runtime / Cloud Native Storage / Amazon Elastic
-      Block Store (EBS))'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Runtime / Cloud Native
+      Storage / Amazon Elastic Block Store (EBS))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - runtime
 - runtime
 slug: amazon-elastic-block-store-ebs
+assigned_id: dea:technology-amazon-elastic-block-store-ebs-rbxvbh
+admitted: '2026-11-14'

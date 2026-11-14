@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Aggregator — published architecture pattern: Merge a batch of re
   a single message.'
 problem: Merge a batch of related messages back into a single message.
 solution: Split processing results must recombine into one response.
-applicability: Scatter-gather flows.
+applicability:
+- Scatter-gather flows.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - enterpriseintegrationpatterns-com
 slug: aggregator
+assigned_id: dea:architecture-pattern-aggregator-z6k4vr
+admitted: '2026-11-14'

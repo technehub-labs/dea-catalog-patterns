@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Decompose by Domain-Driven Bounded Context — published architect
   around DDD bounded contexts.'
 problem: Define services around DDD bounded contexts.
 solution: Capability boundaries can still leak domain coupling.
-applicability: Rich domains with explicit context maps.
+applicability:
+- Rich domains with explicit context maps.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - microservices-io
 slug: decompose-by-domain-driven-bounded-context
+assigned_id: dea:architecture-pattern-decompose-by-domain-driven-bounded-context-mxnn8z
+admitted: '2026-11-14'

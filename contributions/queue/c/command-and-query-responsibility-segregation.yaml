@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Command and Query Responsibility Segregation — published archite
   the model used to update data from the model used to read data.'
 problem: Separate the model used to update data from the model used to read data.
 solution: One shared model cannot serve both transactional writes and rich reads.
-applicability: High-traffic systems with complex domain writes and flexible read shapes.
+applicability:
+- High-traffic systems with complex domain writes and flexible read shapes.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: command-and-query-responsibility-segregation
+assigned_id: dea:architecture-pattern-command-and-query-responsibility-segregation-r4579j
+admitted: '2026-11-14'

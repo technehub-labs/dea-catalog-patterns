@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Cache-Aside — published architecture pattern: Load data on deman
   store.'
 problem: Load data on demand into a cache from a data store.
 solution: Reading from the primary store on every request is slower than the latency budget allows.
-applicability: Read-heavy workloads with tolerable staleness; expensive computed queries.
+applicability:
+- Read-heavy workloads with tolerable staleness; expensive computed queries.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: cache-aside
+assigned_id: dea:architecture-pattern-cache-aside-6sg6sy
+admitted: '2026-11-14'
