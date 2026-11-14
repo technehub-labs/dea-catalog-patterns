@@ -1,6 +1,8 @@
-# AP-CAT-01: ArchitecturePattern/Technology Candidate Admission Batch 02 (LinuxKit … Zuul)
+# CR-AP-CAT-05: ArchitecturePattern/Technology Candidate Admission Batch 02 (LinuxKit … Zuul)
 
 **Status**: Landed (this PR)
+
+**Naming/numbering correction**: this CR landed as `AP-CAT-01` without the house `CR-` prefix (driver defect, fixed in the programme tooling). Renamed to `CR-AP-CAT-05` by the naming-correction CR (CR-AP-CAT-06); content unchanged.
 **Layer**: Catalog content (candidate corpus admission)
 **Owner**: Emmanuel A. Otchere
 **Date**: 2026-11-15
