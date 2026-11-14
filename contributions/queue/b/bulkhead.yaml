@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: Bulkhead'
+type: ArchitecturePattern
+name: Bulkhead
+description: 'Bulkhead — published architecture pattern: Isolate elements of an application into pools
+  so that if one fails, the others continue to function.'
+problem: Isolate elements of an application into pools so that if one fails, the others continue to function.
+solution: A single failing dependency or tenant can exhaust shared resources and cascade failure.
+applicability: Multi-tenant services; mixed-criticality workloads sharing process or connection pools.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published pattern catalog entry:
+      Bulkhead)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- learn-microsoft-com
+slug: bulkhead

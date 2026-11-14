@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: Queue-Based Load Leveling'
+type: ArchitecturePattern
+name: Queue-Based Load Leveling
+description: 'Queue-Based Load Leveling — published architecture pattern: Use a queue as a buffer between
+  a task and a service it invokes.'
+problem: Use a queue as a buffer between a task and a service it invokes.
+solution: Intermittent bursts overload services called directly.
+applicability: Smoothing traffic between producers and rate-limited consumers.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published pattern catalog entry:
+      Queue-Based Load Leveling)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- learn-microsoft-com
+slug: queue-based-load-leveling

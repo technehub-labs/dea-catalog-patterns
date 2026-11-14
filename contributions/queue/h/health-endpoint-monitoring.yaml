@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: Health Endpoint Monitoring'
+type: ArchitecturePattern
+name: Health Endpoint Monitoring
+description: 'Health Endpoint Monitoring — published architecture pattern: Implement functional checks
+  in an application that external tools can access at regular intervals.'
+problem: Implement functional checks in an application that external tools can access at regular intervals.
+solution: Failures invisible to external monitoring are discovered only by users.
+applicability: Services whose dependencies must be probed end-to-end.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published pattern catalog entry:
+      Health Endpoint Monitoring)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- learn-microsoft-com
+slug: health-endpoint-monitoring

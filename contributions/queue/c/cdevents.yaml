@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: landscape-technologies.json
+source_ref: CNCF Landscape / App Definition and Development / Streaming & Messaging / CDEvents
+type: Technology
+name: CDEvents
+description: CDEvents — Streaming & Messaging entry in the CNCF Landscape; homepage https://cdevents.dev.
+  technology_category is provisional.
+technology_category: framework
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: App Definition and Development / Streaming
+      & Messaging / CDEvents)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
+    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
+    decision.
+tags:
+- framework
+- app-definition-and-d
+slug: cdevents

@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: Publisher/Subscriber'
+type: ArchitecturePattern
+name: Publisher/Subscriber
+description: 'Publisher/Subscriber — published architecture pattern: Enable publishers to push events
+  to subscribers asynchronously.'
+problem: Enable publishers to push events to subscribers asynchronously.
+solution: Point-to-point messaging couples producers to consumer counts.
+applicability: Event distribution to one or many unknown consumers.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published pattern catalog entry:
+      Publisher/Subscriber)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- learn-microsoft-com
+slug: publisher-subscriber

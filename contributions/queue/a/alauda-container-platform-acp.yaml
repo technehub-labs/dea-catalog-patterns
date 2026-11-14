@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: landscape-technologies.json
+source_ref: CNCF Landscape / Platform / Certified Kubernetes - Distribution / Alauda Container Platform
+  (ACP)
+type: Technology
+name: Alauda Container Platform (ACP)
+description: Alauda Container Platform (ACP) — Certified Kubernetes - Distribution entry in the CNCF Landscape;
+  homepage http://www.alauda.cn/product/detail/id/364.html. technology_category is provisional.
+technology_category: platform
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes - Distribution
+      / Alauda Container Platform (ACP))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
+    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
+    decision.
+tags:
+- platform
+- platform
+slug: alauda-container-platform-acp

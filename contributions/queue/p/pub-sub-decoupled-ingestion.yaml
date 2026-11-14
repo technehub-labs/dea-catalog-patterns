@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: Pub/Sub Decoupled Ingestion'
+type: ArchitecturePattern
+name: Pub/Sub Decoupled Ingestion
+description: 'Pub/Sub Decoupled Ingestion — published architecture pattern: Ingest bursts through a managed
+  pub/sub layer into processing.'
+problem: Ingest bursts through a managed pub/sub layer into processing.
+solution: Direct ingestion overloads consumers.
+applicability: Telemetry and IoT ingestion.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://cloud.google.com/architecture (published pattern catalog entry: Pub/Sub Decoupled
+      Ingestion)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- cloud-google-com
+slug: pub-sub-decoupled-ingestion

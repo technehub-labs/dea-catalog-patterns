@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: landscape-technologies.json
+source_ref: CNCF Landscape / Training / Distributed Training / Pytorch DistributedDataParallel (DDP)
+type: Technology
+name: Pytorch DistributedDataParallel (DDP)
+description: Pytorch DistributedDataParallel (DDP) — Distributed Training entry in the CNCF Landscape;
+  homepage https://pytorch.org/tutorials/intermediate/ddp_tutorial.html. technology_category is provisional.
+technology_category: platform
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Training / Distributed Training / Pytorch
+      DistributedDataParallel (DDP))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
+    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
+    decision.
+tags:
+- platform
+- training
+slug: pytorch-distributeddataparallel-ddp

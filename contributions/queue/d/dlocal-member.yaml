@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: landscape-technologies.json
+source_ref: CNCF Landscape / CNCF Members / Silver / Dlocal (member)
+type: Technology
+name: Dlocal (member)
+description: Dlocal (member) — Silver entry in the CNCF Landscape; homepage https://www.dlocal.com. technology_category
+  is provisional.
+technology_category: platform
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: CNCF Members / Silver / Dlocal (member))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
+    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
+    decision.
+tags:
+- platform
+- cncf-members
+slug: dlocal-member

@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: landscape-technologies.json
+source_ref: CNCF Landscape / Runtime / Cloud Native Network / Container Network Interface (CNI)
+type: Technology
+name: Container Network Interface (CNI)
+description: Container Network Interface (CNI) — Cloud Native Network entry in the CNCF Landscape (incubating
+  project); homepage https://www.cni.dev/. technology_category is provisional.
+technology_category: runtime
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Runtime / Cloud Native Network / Container
+      Network Interface (CNI))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
+    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
+    decision.
+tags:
+- runtime
+- runtime
+slug: container-network-interface-cni

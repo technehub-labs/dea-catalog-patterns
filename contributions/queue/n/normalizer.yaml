@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: Normalizer'
+type: ArchitecturePattern
+name: Normalizer
+description: 'Normalizer — published architecture pattern: Route semantically equivalent messages through
+  a common canonical form.'
+problem: Route semantically equivalent messages through a common canonical form.
+solution: Many message variants must feed one consumer.
+applicability: Multi-source integration with a canonical model.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.enterpriseintegrationpatterns.com/patterns/messaging/ (published pattern catalog
+      entry: Normalizer)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- enterpriseintegrationpatterns-com
+slug: normalizer

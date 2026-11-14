@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: CQRS View / Materialized View Query'
+type: ArchitecturePattern
+name: CQRS View / Materialized View Query
+description: 'CQRS View / Materialized View Query — published architecture pattern: Maintain one or more
+  materialized views that pre-join data from multiple services.'
+problem: Maintain one or more materialized views that pre-join data from multiple services.
+solution: API composition is too chatty for frequent complex queries.
+applicability: Frequent cross-service queries needing near-real-time views.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://microservices.io/patterns/ (published pattern catalog entry: CQRS View / Materialized
+      View Query)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- microservices-io
+slug: cqrs-view-materialized-view-query

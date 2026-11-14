@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: Circuit Breaker (microservices)'
+type: ArchitecturePattern
+name: Circuit Breaker (microservices)
+description: 'Circuit Breaker (microservices) — published architecture pattern: Wrap remote calls with
+  a proxy that fails fast when the remote is unhealthy.'
+problem: Wrap remote calls with a proxy that fails fast when the remote is unhealthy.
+solution: Slow or failed remote calls exhaust threads and cascade.
+applicability: Inter-service calls in a mesh or client library.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://microservices.io/patterns/ (published pattern catalog entry: Circuit Breaker (microservices))'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- microservices-io
+slug: circuit-breaker-microservices
