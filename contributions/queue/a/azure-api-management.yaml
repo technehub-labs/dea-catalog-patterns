@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Orchestration & Management / API Gateway / Azure API Management
+source_ref: CNCF Landscape / Orchestration & Management / API Gateway / Azure API
+  Management
 type: Technology
 name: Azure API Management
-description: Azure API Management — API Gateway entry in the CNCF Landscape; homepage https://azure.microsoft.com/en-us/services/api-management.
-  technology_category is provisional.
+description: Azure API Management — API Gateway entry in the CNCF Landscape; homepage
+  https://azure.microsoft.com/en-us/services/api-management. technology_category is
+  provisional.
 technology_category: orchestration
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management / API Gateway /
-      Azure API Management)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management
+      / API Gateway / Azure API Management)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - orchestration
 - orchestration-manage
 slug: azure-api-management
+assigned_id: dea:technology-azure-api-management-qdt4eg
+admitted: '2026-11-14'

@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Provisioning / Container Registry / Google Container Registry
+source_ref: CNCF Landscape / Provisioning / Container Registry / Google Container
+  Registry
 type: Technology
 name: Google Container Registry
-description: Google Container Registry — Container Registry entry in the CNCF Landscape; homepage https://cloud.google.com/container-registry/.
-  technology_category is provisional.
+description: Google Container Registry — Container Registry entry in the CNCF Landscape;
+  homepage https://cloud.google.com/container-registry/. technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Provisioning / Container Registry / Google
-      Container Registry)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Provisioning / Container
+      Registry / Google Container Registry)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - provisioning
 slug: google-container-registry
+assigned_id: dea:technology-google-container-registry-qapmc9
+admitted: '2026-11-14'

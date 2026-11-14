@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Event-Driven Consumer — published architecture pattern: Let the 
   to the consumer as they arrive.'
 problem: Let the messaging system push messages to the consumer as they arrive.
 solution: Polling wastes cycles on idle systems.
-applicability: Consumers needing low-latency reaction.
+applicability:
+- Consumers needing low-latency reaction.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - enterpriseintegrationpatterns-com
 slug: event-driven-consumer
+assigned_id: dea:architecture-pattern-event-driven-consumer-keyg29
+admitted: '2026-11-14'

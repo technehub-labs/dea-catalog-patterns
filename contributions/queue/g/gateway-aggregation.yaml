@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Gateway Aggregation — published architecture pattern: Use a gate
   individual requests into a single request.'
 problem: Use a gateway to aggregate multiple individual requests into a single request.
 solution: Clients making many calls to fine-grained services suffer chattiness.
-applicability: Mobile or web clients over high-latency links calling several services.
+applicability:
+- Mobile or web clients over high-latency links calling several services.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: gateway-aggregation
+assigned_id: dea:architecture-pattern-gateway-aggregation-2xebve
+admitted: '2026-11-14'

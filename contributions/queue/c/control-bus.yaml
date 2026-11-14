@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Control Bus — published architecture pattern: Use a separate con
   monitor the integration system.'
 problem: Use a separate control channel to manage and monitor the integration system.
 solution: Operational commands mix with data traffic.
-applicability: Runtime management of integration components.
+applicability:
+- Runtime management of integration components.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - enterpriseintegrationpatterns-com
 slug: control-bus
+assigned_id: dea:architecture-pattern-control-bus-n4takn
+admitted: '2026-11-14'

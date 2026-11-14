@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Index Table — published architecture pattern: Create indexes ove
   by queries.'
 problem: Create indexes over fields frequently referenced by queries.
 solution: Querying a large data store without secondary indexes requires full scans.
-applicability: Key-value or wide-column stores queried by non-key fields.
+applicability:
+- Key-value or wide-column stores queried by non-key fields.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: index-table
+assigned_id: dea:architecture-pattern-index-table-vtbe94
+admitted: '2026-11-14'

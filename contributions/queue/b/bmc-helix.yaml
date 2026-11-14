@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Observability and Analysis / Continuous Optimization / BMC Helix
+source_ref: CNCF Landscape / Observability and Analysis / Continuous Optimization
+  / BMC Helix
 type: Technology
 name: BMC Helix
-description: BMC Helix — Continuous Optimization entry in the CNCF Landscape; homepage https://www.bmc.com/it-solutions/bmc-helix.html.
-  technology_category is provisional.
+description: BMC Helix — Continuous Optimization entry in the CNCF Landscape; homepage
+  https://www.bmc.com/it-solutions/bmc-helix.html. technology_category is provisional.
 technology_category: monitoring
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Observability and Analysis / Continuous Optimization
-      / BMC Helix)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Observability and Analysis
+      / Continuous Optimization / BMC Helix)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - monitoring
 - observability-and-an
 slug: bmc-helix
+assigned_id: dea:technology-bmc-helix-5udhvq
+admitted: '2026-11-14'

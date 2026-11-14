@@ -1,8 +1,9 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Observability and Analysis / Observability / Elastic APM
+source_ref: CNCF Landscape / Observability and Analysis / Observability / Elastic
+  APM
 type: Technology
 name: Elastic APM
 description: Elastic APM — Observability entry in the CNCF Landscape; homepage https://www.elastic.co/observability/application-performance-monitoring.
@@ -11,12 +12,14 @@ technology_category: monitoring
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Observability and Analysis / Observability
-      / Elastic APM)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Observability and Analysis
+      / Observability / Elastic APM)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - monitoring
 - observability-and-an
 slug: elastic-apm
+assigned_id: dea:technology-elastic-apm-mb52y3
+admitted: '2026-11-14'

@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'API Composition — published architecture pattern: Implement quer
   that own the data and composing results in memory.'
 problem: Implement queries by invoking the services that own the data and composing results in memory.
 solution: Cross-service queries cannot join data via SQL.
-applicability: Simple in-memory joins over a handful of services.
+applicability:
+- Simple in-memory joins over a handful of services.
 evidence:
   sources:
   - kind: published-document
@@ -21,3 +22,5 @@ tags:
 - architecture-pattern
 - microservices-io
 slug: api-composition
+assigned_id: dea:architecture-pattern-api-composition-749m2d
+admitted: '2026-11-14'

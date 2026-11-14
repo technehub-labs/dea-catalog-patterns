@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Platform / Certified Kubernetes - Installer / Kubeaver
 type: Technology
 name: Kubeaver
-description: Kubeaver — Certified Kubernetes - Installer entry in the CNCF Landscape; homepage https://github.com/eb-k8s/kubeaver.
-  technology_category is provisional.
+description: Kubeaver — Certified Kubernetes - Installer entry in the CNCF Landscape;
+  homepage https://github.com/eb-k8s/kubeaver. technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes - Installer
-      / Kubeaver)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes
+      - Installer / Kubeaver)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - platform
 slug: kubeaver
+assigned_id: dea:technology-kubeaver-gs4x7w
+admitted: '2026-11-14'

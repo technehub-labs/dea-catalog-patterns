@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / AI Agent / RAG / Haystack
 type: Technology
 name: Haystack
-description: Haystack — RAG entry in the CNCF Landscape; homepage https://haystack.deepset.ai/. technology_category
-  is provisional.
+description: Haystack — RAG entry in the CNCF Landscape; homepage https://haystack.deepset.ai/.
+  technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
     reference: 'https://landscape.cncf.io/ (CNCF Landscape: AI Agent / RAG / Haystack)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - ai-agent
 slug: haystack
+assigned_id: dea:technology-haystack-axzx6m
+admitted: '2026-11-14'

@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Competing Consumers — published architecture pattern: Enable mul
   to process messages received on the same channel.'
 problem: Enable multiple concurrent consumers to process messages received on the same channel.
 solution: A single consumer cannot keep up with message throughput.
-applicability: Queue-based workloads that are parallelizable and idempotent.
+applicability:
+- Queue-based workloads that are parallelizable and idempotent.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: competing-consumers
+assigned_id: dea:architecture-pattern-competing-consumers-tz27t7
+admitted: '2026-11-14'

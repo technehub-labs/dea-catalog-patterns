@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Event Sourcing — published architecture pattern: Persist state a
   of events and derive state by replay.'
 problem: Persist state as an append-only sequence of events and derive state by replay.
 solution: Auditing and temporal queries need full change history.
-applicability: Domain models where change history is a first-class requirement.
+applicability:
+- Domain models where change history is a first-class requirement.
 evidence:
   sources:
   - kind: published-document
@@ -21,3 +22,5 @@ tags:
 - architecture-pattern
 - cloud-google-com
 slug: event-sourcing
+assigned_id: dea:architecture-pattern-event-sourcing-89e55y
+admitted: '2026-11-14'

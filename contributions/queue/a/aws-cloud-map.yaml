@@ -1,23 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Orchestration & Management / Coordination & Service Discovery / AWS Cloud
-  Map
+source_ref: CNCF Landscape / Orchestration & Management / Coordination & Service Discovery
+  / AWS Cloud Map
 type: Technology
 name: AWS Cloud Map
-description: AWS Cloud Map — Coordination & Service Discovery entry in the CNCF Landscape; homepage https://aws.amazon.com/cloud-map/.
-  technology_category is provisional.
+description: AWS Cloud Map — Coordination & Service Discovery entry in the CNCF Landscape;
+  homepage https://aws.amazon.com/cloud-map/. technology_category is provisional.
 technology_category: orchestration
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management / Coordination
-      & Service Discovery / AWS Cloud Map)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management
+      / Coordination & Service Discovery / AWS Cloud Map)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - orchestration
 - orchestration-manage
 slug: aws-cloud-map
+assigned_id: dea:technology-aws-cloud-map-rzk4sa
+admitted: '2026-11-14'

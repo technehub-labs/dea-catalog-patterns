@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Bulkhead — published architecture pattern: Isolate elements of a
   so that if one fails, the others continue to function.'
 problem: Isolate elements of an application into pools so that if one fails, the others continue to function.
 solution: A single failing dependency or tenant can exhaust shared resources and cascade failure.
-applicability: Multi-tenant services; mixed-criticality workloads sharing process or connection pools.
+applicability:
+- Multi-tenant services; mixed-criticality workloads sharing process or connection pools.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: bulkhead
+assigned_id: dea:architecture-pattern-bulkhead-qpxbb7
+admitted: '2026-11-14'

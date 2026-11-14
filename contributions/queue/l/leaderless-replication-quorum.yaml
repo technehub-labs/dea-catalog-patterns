@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Leaderless Replication Quorum — published architecture pattern: 
   across replicas without a single leader.'
 problem: Use quorum reads and writes across replicas without a single leader.
 solution: Write throughput must scale without leader bottlenecks.
-applicability: Distributed databases (Dynamo-style).
+applicability:
+- Distributed databases (Dynamo-style).
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - cloud-google-com
 slug: leaderless-replication-quorum
+assigned_id: dea:architecture-pattern-leaderless-replication-quorum-mny5ev
+admitted: '2026-11-14'

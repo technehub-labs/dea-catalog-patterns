@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Dead Letter Channel — published architecture pattern: Store mess
   or processed for later diagnosis.'
 problem: Store messages that cannot be delivered or processed for later diagnosis.
 solution: Poison messages silently disappear.
-applicability: Any queue-based system needing poison handling.
+applicability:
+- Any queue-based system needing poison handling.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - enterpriseintegrationpatterns-com
 slug: dead-letter-channel
+assigned_id: dea:architecture-pattern-dead-letter-channel-y3724b
+admitted: '2026-11-14'

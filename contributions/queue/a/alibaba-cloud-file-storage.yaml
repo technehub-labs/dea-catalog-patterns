@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Runtime / Cloud Native Storage / Alibaba Cloud File Storage
 type: Technology
 name: Alibaba Cloud File Storage
-description: Alibaba Cloud File Storage — Cloud Native Storage entry in the CNCF Landscape; homepage https://www.alibabacloud.com/product/nas.
-  technology_category is provisional.
+description: Alibaba Cloud File Storage — Cloud Native Storage entry in the CNCF Landscape;
+  homepage https://www.alibabacloud.com/product/nas. technology_category is provisional.
 technology_category: runtime
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Runtime / Cloud Native Storage / Alibaba Cloud
-      File Storage)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Runtime / Cloud Native
+      Storage / Alibaba Cloud File Storage)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - runtime
 - runtime
 slug: alibaba-cloud-file-storage
+assigned_id: dea:technology-alibaba-cloud-file-storage-x6jtg2
+admitted: '2026-11-14'

@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Orchestration & Management / Remote Procedure Call / CloudWeGo
+source_ref: CNCF Landscape / Orchestration & Management / Remote Procedure Call /
+  CloudWeGo
 type: Technology
 name: CloudWeGo
-description: CloudWeGo — Remote Procedure Call entry in the CNCF Landscape; homepage https://www.cloudwego.io/.
-  technology_category is provisional.
+description: CloudWeGo — Remote Procedure Call entry in the CNCF Landscape; homepage
+  https://www.cloudwego.io/. technology_category is provisional.
 technology_category: orchestration
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management / Remote Procedure
-      Call / CloudWeGo)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management
+      / Remote Procedure Call / CloudWeGo)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - orchestration
 - orchestration-manage
 slug: cloudwego
+assigned_id: dea:technology-cloudwego-btfxbq
+admitted: '2026-11-14'

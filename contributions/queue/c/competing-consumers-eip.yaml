@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Competing Consumers (EIP) — published architecture pattern: Let 
   from one queue to scale processing.'
 problem: Let multiple consumers pull from one queue to scale processing.
 solution: Single-threaded consumption cannot meet throughput.
-applicability: Parallelizable work queues.
+applicability:
+- Parallelizable work queues.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - enterpriseintegrationpatterns-com
 slug: competing-consumers-eip
+assigned_id: dea:architecture-pattern-competing-consumers-eip-etr9hb
+admitted: '2026-11-14'

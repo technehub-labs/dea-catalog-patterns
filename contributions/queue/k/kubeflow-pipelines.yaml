@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / AI Native Infra / Continuous Integration and Delivery / Kubeflow Pipelines
+source_ref: CNCF Landscape / AI Native Infra / Continuous Integration and Delivery
+  / Kubeflow Pipelines
 type: Technology
 name: Kubeflow Pipelines
-description: Kubeflow Pipelines — Continuous Integration and Delivery entry in the CNCF Landscape; homepage
-  https://www.kubeflow.org/docs/components/pipelines/v1/introduction/. technology_category is provisional.
+description: Kubeflow Pipelines — Continuous Integration and Delivery entry in the
+  CNCF Landscape; homepage https://www.kubeflow.org/docs/components/pipelines/v1/introduction/.
+  technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: AI Native Infra / Continuous Integration and
-      Delivery / Kubeflow Pipelines)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: AI Native Infra / Continuous
+      Integration and Delivery / Kubeflow Pipelines)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - ai-native-infra
 slug: kubeflow-pipelines
+assigned_id: dea:technology-kubeflow-pipelines-v9sfnu
+admitted: '2026-11-14'

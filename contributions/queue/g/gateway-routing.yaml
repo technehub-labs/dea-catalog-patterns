@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Gateway Routing — published architecture pattern: Route requests
   a single endpoint.'
 problem: Route requests to multiple services using a single endpoint.
 solution: Clients need a stable endpoint while services are versioned or moved.
-applicability: API front doors routing to versioned or migrated backends.
+applicability:
+- API front doors routing to versioned or migrated backends.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: gateway-routing
+assigned_id: dea:architecture-pattern-gateway-routing-qfh4dk
+admitted: '2026-11-14'

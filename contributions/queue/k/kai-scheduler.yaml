@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Orchestration & Management / Scheduling & Orchestration / KAI Scheduler
+source_ref: CNCF Landscape / Orchestration & Management / Scheduling & Orchestration
+  / KAI Scheduler
 type: Technology
 name: KAI Scheduler
-description: KAI Scheduler — Scheduling & Orchestration entry in the CNCF Landscape (sandbox project);
-  homepage https://kai-scheduler.dev. technology_category is provisional.
+description: KAI Scheduler — Scheduling & Orchestration entry in the CNCF Landscape
+  (sandbox project); homepage https://kai-scheduler.dev. technology_category is provisional.
 technology_category: orchestration
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management / Scheduling &
-      Orchestration / KAI Scheduler)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management
+      / Scheduling & Orchestration / KAI Scheduler)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - orchestration
 - orchestration-manage
 slug: kai-scheduler
+assigned_id: dea:technology-kai-scheduler-qex3hv
+admitted: '2026-11-14'

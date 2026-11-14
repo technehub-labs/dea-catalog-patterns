@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Gateway Offloading — published architecture pattern: Offload sha
   component.'
 problem: Offload shared functionality to a gateway component.
 solution: Cross-cutting concerns (TLS, auth, rate limiting) duplicated per service.
-applicability: Shared concerns best implemented once at the edge.
+applicability:
+- Shared concerns best implemented once at the edge.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: gateway-offloading
+assigned_id: dea:architecture-pattern-gateway-offloading-qttg6v
+admitted: '2026-11-14'

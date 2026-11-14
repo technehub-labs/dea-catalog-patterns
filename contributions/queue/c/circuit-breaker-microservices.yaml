@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Circuit Breaker (microservices) — published architecture pattern
   a proxy that fails fast when the remote is unhealthy.'
 problem: Wrap remote calls with a proxy that fails fast when the remote is unhealthy.
 solution: Slow or failed remote calls exhaust threads and cascade.
-applicability: Inter-service calls in a mesh or client library.
+applicability:
+- Inter-service calls in a mesh or client library.
 evidence:
   sources:
   - kind: published-document
@@ -21,3 +22,5 @@ tags:
 - architecture-pattern
 - microservices-io
 slug: circuit-breaker-microservices
+assigned_id: dea:architecture-pattern-circuit-breaker-microservices-yw4xey
+admitted: '2026-11-14'

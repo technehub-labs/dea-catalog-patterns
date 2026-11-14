@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Orchestration & Management / Scheduling & Orchestration / Crossplane
+source_ref: CNCF Landscape / Orchestration & Management / Scheduling & Orchestration
+  / Crossplane
 type: Technology
 name: Crossplane
-description: Crossplane — Scheduling & Orchestration entry in the CNCF Landscape (graduated project);
-  homepage https://crossplane.io/. technology_category is provisional.
+description: Crossplane — Scheduling & Orchestration entry in the CNCF Landscape (graduated
+  project); homepage https://crossplane.io/. technology_category is provisional.
 technology_category: orchestration
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management / Scheduling &
-      Orchestration / Crossplane)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management
+      / Scheduling & Orchestration / Crossplane)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - orchestration
 - orchestration-manage
 slug: crossplane
+assigned_id: dea:technology-crossplane-fu64f3
+admitted: '2026-11-14'

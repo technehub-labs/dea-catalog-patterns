@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -10,7 +10,8 @@ description: 'Async Request-Reply — published architecture pattern: Decouple b
 problem: Decouple backend processing from a front-end host where the backend processes requests asynchronously.
 solution: HTTP request/response clients must call long-running operations without holding connections
   open.
-applicability: Public APIs wrapping long-running background work.
+applicability:
+- Public APIs wrapping long-running background work.
 evidence:
   sources:
   - kind: published-document
@@ -23,3 +24,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: async-request-reply
+assigned_id: dea:architecture-pattern-async-request-reply-s6qjet
+admitted: '2026-11-14'

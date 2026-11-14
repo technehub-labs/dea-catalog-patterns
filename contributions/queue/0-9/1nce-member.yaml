@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / CNCF Members / Silver / 1NCE (member)
 type: Technology
 name: 1NCE (member)
-description: 1NCE (member) — Silver entry in the CNCF Landscape; homepage https://1nce.com/en-us. technology_category
-  is provisional.
+description: 1NCE (member) — Silver entry in the CNCF Landscape; homepage https://1nce.com/en-us.
+  technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: CNCF Members / Silver / 1NCE (member))'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: CNCF Members / Silver
+      / 1NCE (member))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - cncf-members
 slug: 1nce-member
+assigned_id: dea:technology-1nce-member-a9qbzs
+admitted: '2026-11-14'

@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Platform / Certified Kubernetes - Hosted / Alibaba Cloud Container Service
-  for Kubernetes
+source_ref: CNCF Landscape / Platform / Certified Kubernetes - Hosted / Alibaba Cloud
+  Container Service for Kubernetes
 type: Technology
 name: Alibaba Cloud Container Service for Kubernetes
-description: Alibaba Cloud Container Service for Kubernetes — Certified Kubernetes - Hosted entry in the
-  CNCF Landscape; homepage https://www.alibabacloud.com/product/kubernetes. technology_category is provisional.
+description: Alibaba Cloud Container Service for Kubernetes — Certified Kubernetes
+  - Hosted entry in the CNCF Landscape; homepage https://www.alibabacloud.com/product/kubernetes.
+  technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes - Hosted /
-      Alibaba Cloud Container Service for Kubernetes)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes
+      - Hosted / Alibaba Cloud Container Service for Kubernetes)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - platform
 slug: alibaba-cloud-container-service-for-kubernetes
+assigned_id: dea:technology-alibaba-cloud-container-service-for-kubernetes-c48tjs
+admitted: '2026-11-14'

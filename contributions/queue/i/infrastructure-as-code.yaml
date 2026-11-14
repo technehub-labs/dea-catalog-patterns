@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Infrastructure as Code — published architecture pattern: Declare
   templates.'
 problem: Declare infrastructure in version-controlled templates.
 solution: Manual infra changes are unauditable and irreproducible.
-applicability: Cloud resource provisioning.
+applicability:
+- Cloud resource provisioning.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - cloud-google-com
 slug: infrastructure-as-code
+assigned_id: dea:architecture-pattern-infrastructure-as-code-ysjd4s
+admitted: '2026-11-14'

@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Orchestration & Management / Scheduling & Orchestration / China Mobile Panji
-  PaaS Platform
+source_ref: CNCF Landscape / Orchestration & Management / Scheduling & Orchestration
+  / China Mobile Panji PaaS Platform
 type: Technology
 name: China Mobile Panji PaaS Platform
-description: China Mobile Panji PaaS Platform — Scheduling & Orchestration entry in the CNCF Landscape;
-  homepage https://it.10086.cn/services/paas/. technology_category is provisional.
+description: China Mobile Panji PaaS Platform — Scheduling & Orchestration entry in
+  the CNCF Landscape; homepage https://it.10086.cn/services/paas/. technology_category
+  is provisional.
 technology_category: orchestration
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management / Scheduling &
-      Orchestration / China Mobile Panji PaaS Platform)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management
+      / Scheduling & Orchestration / China Mobile Panji PaaS Platform)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - orchestration
 - orchestration-manage
 slug: china-mobile-panji-paas-platform
+assigned_id: dea:technology-china-mobile-panji-paas-platform-xvunx8
+admitted: '2026-11-14'

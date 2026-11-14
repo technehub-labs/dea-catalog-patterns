@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Gatekeeper — published architecture pattern: Protect application
   host instance that brokers requests.'
 problem: Protect applications and services with a dedicated host instance that brokers requests.
 solution: Clients must not reach sensitive backends directly.
-applicability: Backends requiring validation, threat screening, or protocol translation.
+applicability:
+- Backends requiring validation, threat screening, or protocol translation.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: gatekeeper
+assigned_id: dea:architecture-pattern-gatekeeper-29h4qp
+admitted: '2026-11-14'

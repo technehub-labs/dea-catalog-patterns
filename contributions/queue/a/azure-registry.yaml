@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Provisioning / Container Registry / Azure Registry
 type: Technology
 name: Azure Registry
-description: Azure Registry — Container Registry entry in the CNCF Landscape; homepage https://azure.microsoft.com/en-us/services/container-registry/.
-  technology_category is provisional.
+description: Azure Registry — Container Registry entry in the CNCF Landscape; homepage
+  https://azure.microsoft.com/en-us/services/container-registry/. technology_category
+  is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Provisioning / Container Registry / Azure
-      Registry)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Provisioning / Container
+      Registry / Azure Registry)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - provisioning
 slug: azure-registry
+assigned_id: dea:technology-azure-registry-hjbjuw
+admitted: '2026-11-14'

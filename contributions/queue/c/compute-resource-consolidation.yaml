@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
@@ -9,7 +9,8 @@ description: 'Compute Resource Consolidation — published architecture pattern:
   into a single computational unit.'
 problem: Consolidate multiple tasks into a single computational unit.
 solution: Many small dedicated compute units waste resources and raise management cost.
-applicability: Sparse or bursty tasks that can share a host safely.
+applicability:
+- Sparse or bursty tasks that can share a host safely.
 evidence:
   sources:
   - kind: published-document
@@ -22,3 +23,5 @@ tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: compute-resource-consolidation
+assigned_id: dea:architecture-pattern-compute-resource-consolidation-2d2yx6
+admitted: '2026-11-14'

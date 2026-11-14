@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Orchestration & Management / API Gateway / APISIX
 type: Technology
 name: APISIX
-description: APISIX — API Gateway entry in the CNCF Landscape; homepage https://apisix.apache.org/. technology_category
-  is provisional.
+description: APISIX — API Gateway entry in the CNCF Landscape; homepage https://apisix.apache.org/.
+  technology_category is provisional.
 technology_category: orchestration
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management / API Gateway /
-      APISIX)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management
+      / API Gateway / APISIX)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - orchestration
 - orchestration-manage
 slug: apisix
+assigned_id: dea:technology-apisix-fdua8k
+admitted: '2026-11-14'

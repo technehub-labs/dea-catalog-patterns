@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / App Definition and Development / Application Definition & Image Build / Carvel
+source_ref: CNCF Landscape / App Definition and Development / Application Definition
+  & Image Build / Carvel
 type: Technology
 name: Carvel
-description: Carvel — Application Definition & Image Build entry in the CNCF Landscape (sandbox project);
-  homepage https://carvel.dev. technology_category is provisional.
+description: Carvel — Application Definition & Image Build entry in the CNCF Landscape
+  (sandbox project); homepage https://carvel.dev. technology_category is provisional.
 technology_category: framework
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: App Definition and Development / Application
-      Definition & Image Build / Carvel)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: App Definition and Development
+      / Application Definition & Image Build / Carvel)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - framework
 - app-definition-and-d
 slug: carvel
+assigned_id: dea:technology-carvel-a7rscz
+admitted: '2026-11-14'
