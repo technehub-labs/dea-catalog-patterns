@@ -23,7 +23,12 @@ REQUIRED_POPULATION_GATES = (
     "scripts/check_record_documentation.py",
 )
 
-CANONICAL_ID = re.compile(r"dea:architecture-pattern-[a-z0-9-]+")
+# Multi-type corpus (CR-AP-CAT-02 §2.1): the repo allocates both
+# ArchitecturePattern and Technology; id-form and type checks dispatch per type.
+CANONICAL_IDS = {
+    "ArchitecturePattern": re.compile(r"^dea:architecture-pattern-[a-z0-9-]+$"),
+    "Technology": re.compile(r"^dea:technology-[a-z0-9-]+$"),
+}
 
 
 def main() -> int:
@@ -48,11 +53,12 @@ def main() -> int:
     for f in records:
         doc = yaml.safe_load(open(f, encoding="utf-8")) or {}
         rid = doc.get("id") or ""
-        if not CANONICAL_ID.fullmatch(rid):
-            findings.append(f"{Path(f).relative_to(REPO)}: id {rid!r} is not a canonical Architecture Pattern id")
         rtype = doc.get("type") or ""
-        if rtype != "ArchitecturePattern":
-            findings.append(f"{Path(f).relative_to(REPO)}: type {rtype!r} is not 'ArchitecturePattern'")
+        expected = CANONICAL_IDS.get(rtype)
+        if expected is None:
+            findings.append(f"{Path(f).relative_to(REPO)}: type {rtype!r} is not one of {sorted(CANONICAL_IDS)}")
+        elif not expected.fullmatch(rid):
+            findings.append(f"{Path(f).relative_to(REPO)}: id {rid!r} is not a canonical {rtype} id")
 
     if findings:
         print("Posture findings:")
