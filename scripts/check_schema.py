@@ -26,11 +26,65 @@ FIXTURE_VALID = REPO / "schemas" / "fixtures" / "example-valid.yaml"
 FIXTURE_INVALID = REPO / "schemas" / "fixtures" / "example-invalid.yaml"
 RECORD_GLOB = "entities/v1-alpha/**/*.yaml"
 
-EXPECTED_TYPE_CONST = "ArchitecturePattern"
+# Multi-type corpus (CR-AP-CAT-02 §2.1): the projection is an anyOf over the
+# two allocated entities; projection checks dispatch per branch.
 EXPECTED_LIFECYCLE_ENUM = ["proposed", "planned", "active", "deprecated", "retired"]
-EXPECTED_REQUIRED = ["id", "type", "name", "version", "lifecycle_status", "problem", "solution", "applicability"]
-EXPECTED_ID_PATTERN = "^dea:architecture-pattern-[a-z0-9-]+$"
-EXPECTED_MATURITY_ENUM = ["emerging", "established", "canonical", "deprecated"]
+EXPECTED_BRANCHES = {
+    "ArchitecturePattern": {
+        "required": ["id", "type", "name", "version", "lifecycle_status",
+                     "problem", "solution", "applicability"],
+        "id_pattern": "^dea:architecture-pattern-[a-z0-9-]+$",
+        "enums": {"maturity": ["emerging", "established", "canonical", "deprecated"]},
+    },
+    "Technology": {
+        "required": ["id", "type", "name", "version", "lifecycle_status",
+                     "technology_category"],
+        "id_pattern": "^dea:technology-[a-z0-9-]+$",
+        "enums": {"technology_category": ["language", "framework", "runtime", "database",
+                                          "library", "build-tool", "ci-cd", "monitoring",
+                                          "orchestration", "platform"],
+                  "adoption_status": ["approved", "deprecated", "banned", "experimental"]},
+    },
+}
+
+
+def check_projection() -> list[str]:
+    if not SCHEMA_PATH.exists():
+        return ["entity.schema.json is missing"]
+    schema = json.load(SCHEMA_PATH.open(encoding="utf-8"))
+    findings: list[str] = []
+    if not schema.get("anyOf"):
+        findings.append("projection is not a multi-type anyOf")
+        return findings
+    got_types = set()
+    for branch in schema["anyOf"]:
+        props = branch.get("properties") or {}
+        rtype = (props.get("type") or {}).get("const")
+        got_types.add(rtype)
+        exp = EXPECTED_BRANCHES.get(rtype)
+        if exp is None:
+            findings.append(f"unexpected branch type const {rtype!r}")
+            continue
+        if branch.get("type") != "object":
+            findings.append(f"{rtype} branch: type is not object")
+        if branch.get("additionalProperties") is not False:
+            findings.append(f"{rtype} branch: additionalProperties is not false")
+        if branch.get("required") != exp["required"]:
+            findings.append(f"{rtype} branch: required is {branch.get('required')!r}")
+        if (props.get("lifecycle_status") or {}).get("enum") != EXPECTED_LIFECYCLE_ENUM:
+            findings.append(f"{rtype} branch: lifecycle_status enum mismatch")
+        if (props.get("id") or {}).get("pattern") != exp["id_pattern"]:
+            findings.append(f"{rtype} branch: id pattern mismatch")
+        for field, expected in exp["enums"].items():
+            got = (props.get(field) or {}).get("enum")
+            if got != expected:
+                findings.append(f"{rtype} branch: {field} enum drift")
+        rel = props.get("relationships")
+        if not rel or "$ref" not in (rel.get("items") or {}):
+            findings.append(f"{rtype} branch: relationships items must $ref relationship-instance.schema.json")
+    if got_types != set(EXPECTED_BRANCHES):
+        findings.append(f"branch types {sorted(got_types)} do not match {sorted(EXPECTED_BRANCHES)}")
+    return findings
 
 
 def build_validator() -> Draft7Validator:
@@ -39,33 +93,6 @@ def build_validator() -> Draft7Validator:
     registry = Registry().with_resource(REL_SCHEMA_URI, Resource.from_contents(rel_schema))
     return Draft7Validator(schema, registry=registry)
 
-
-def check_projection() -> list[str]:
-    if not SCHEMA_PATH.exists():
-        return ["entity.schema.json is missing"]
-    schema = json.load(SCHEMA_PATH.open(encoding="utf-8"))
-    props = schema.get("properties") or {}
-    findings: list[str] = []
-    if schema.get("type") != "object":
-        findings.append("type is not object")
-    if schema.get("additionalProperties") is not False:
-        findings.append("additionalProperties is not false")
-    if schema.get("required") != EXPECTED_REQUIRED:
-        findings.append(f"required is {schema.get('required')!r}")
-    if props.get("type", {}).get("const") != EXPECTED_TYPE_CONST:
-        findings.append("type const mismatch")
-    if props.get("lifecycle_status", {}).get("enum") != EXPECTED_LIFECYCLE_ENUM:
-        findings.append("lifecycle_status enum mismatch")
-    if props.get("id", {}).get("pattern") != EXPECTED_ID_PATTERN:
-        findings.append("id pattern mismatch")
-    for field, expected in {"maturity": ["emerging", "established", "canonical", "deprecated"]}.items():
-        got = (props.get(field) or {}).get("enum")
-        if got != expected:
-            findings.append(f"{field} enum drift")
-    rel = props.get("relationships")
-    if not rel or "$ref" not in (rel.get("items") or {}):
-        findings.append("relationships items must $ref relationship-instance.schema.json")
-    return findings
 
 
 def main() -> int:
