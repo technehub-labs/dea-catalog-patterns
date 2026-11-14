@@ -1,24 +1,29 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
 source_ref: 'pattern catalog: Materialized View'
 type: ArchitecturePattern
 name: Materialized View
-description: 'Materialized View — published architecture pattern: Generate pre-populated views of data
-  when the data is not ideally formatted for queries.'
-problem: Generate pre-populated views of data when the data is not ideally formatted for queries.
+description: 'Materialized View — published architecture pattern: Generate pre-populated
+  views of data when the data is not ideally formatted for queries.'
+problem: Generate pre-populated views of data when the data is not ideally formatted
+  for queries.
 solution: Generating query-ready shapes on demand is expensive.
-applicability: Analytical summaries over normalized operational stores.
+applicability:
+- Analytical summaries over normalized operational stores.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published pattern catalog entry:
-      Materialized View)'
-  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
-    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
-    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published
+      pattern catalog entry: Materialized View)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns,
+    microservices.io, Enterprise Integration Patterns, Google Cloud Architecture).
+    problem/solution/applicability summarize the published entry; maturity is provisional
+    (canonical only for catalogs that self-describe as such).
 tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: materialized-view
+assigned_id: dea:architecture-pattern-materialized-view-2u7q99
+admitted: '2026-11-14'

@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Wasm / Embedded Functions / Redpanda (Wasm)
 type: Technology
 name: Redpanda (Wasm)
-description: Redpanda (Wasm) — Embedded Functions entry in the CNCF Landscape; homepage https://redpanda.com/.
-  technology_category is provisional.
+description: Redpanda (Wasm) — Embedded Functions entry in the CNCF Landscape; homepage
+  https://redpanda.com/. technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Wasm / Embedded Functions / Redpanda (Wasm))'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Wasm / Embedded Functions
+      / Redpanda (Wasm))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - wasm
 slug: redpanda-wasm
+assigned_id: dea:technology-redpanda-wasm-2kqmr9
+admitted: '2026-11-14'

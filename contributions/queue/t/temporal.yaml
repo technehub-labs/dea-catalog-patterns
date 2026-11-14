@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / AI Agent / Workflow Orchestration / Temporal
 type: Technology
 name: Temporal
-description: Temporal — Workflow Orchestration entry in the CNCF Landscape; homepage https://temporal.io/.
-  technology_category is provisional.
+description: Temporal — Workflow Orchestration entry in the CNCF Landscape; homepage
+  https://temporal.io/. technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: AI Agent / Workflow Orchestration / Temporal)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: AI Agent / Workflow Orchestration
+      / Temporal)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - ai-agent
 slug: temporal
+assigned_id: dea:technology-temporal-s3q577
+admitted: '2026-11-14'

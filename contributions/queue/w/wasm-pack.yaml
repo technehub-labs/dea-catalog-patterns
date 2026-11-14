@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
@@ -12,10 +12,12 @@ evidence:
   sources:
   - kind: published-document
     reference: 'https://landscape.cncf.io/ (CNCF Landscape: Wasm / Tooling / wasm-pack)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - wasm
 slug: wasm-pack
+assigned_id: dea:technology-wasm-pack-zpdez7
+admitted: '2026-11-14'

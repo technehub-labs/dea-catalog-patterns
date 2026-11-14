@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Runtime / Container Runtime / rkt
 type: Technology
 name: rkt
-description: rkt — Container Runtime entry in the CNCF Landscape (archived project); homepage https://github.com/rkt/rkt.
-  technology_category is provisional.
+description: rkt — Container Runtime entry in the CNCF Landscape (archived project);
+  homepage https://github.com/rkt/rkt. technology_category is provisional.
 technology_category: runtime
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Runtime / Container Runtime / rkt)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Runtime / Container Runtime
+      / rkt)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - runtime
 - runtime
 slug: rkt
+assigned_id: dea:technology-rkt-jyqmmc
+admitted: '2026-11-14'

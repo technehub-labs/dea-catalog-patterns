@@ -1,24 +1,29 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
 source_ref: 'pattern catalog: Valet Key'
 type: ArchitecturePattern
 name: Valet Key
-description: 'Valet Key — published architecture pattern: Use a token that provides clients restricted
-  direct access to a resource or service.'
-problem: Use a token that provides clients restricted direct access to a resource or service.
+description: 'Valet Key — published architecture pattern: Use a token that provides
+  clients restricted direct access to a resource or service.'
+problem: Use a token that provides clients restricted direct access to a resource
+  or service.
 solution: Routing data transfers through the application wastes bandwidth.
-applicability: Blob/storage uploads and downloads delegated to clients.
+applicability:
+- Blob/storage uploads and downloads delegated to clients.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published pattern catalog entry:
-      Valet Key)'
-  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
-    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
-    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published
+      pattern catalog entry: Valet Key)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns,
+    microservices.io, Enterprise Integration Patterns, Google Cloud Architecture).
+    problem/solution/applicability summarize the published entry; maturity is provisional
+    (canonical only for catalogs that self-describe as such).
 tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: valet-key
+assigned_id: dea:architecture-pattern-valet-key-t8n64b
+admitted: '2026-11-14'

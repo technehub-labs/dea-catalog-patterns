@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / App Definition and Development / Application Definition & Image Build / Stacker
+source_ref: CNCF Landscape / App Definition and Development / Application Definition
+  & Image Build / Stacker
 type: Technology
 name: Stacker
-description: Stacker — Application Definition & Image Build entry in the CNCF Landscape (sandbox project);
-  homepage https://stackerbuild.io. technology_category is provisional.
+description: Stacker — Application Definition & Image Build entry in the CNCF Landscape
+  (sandbox project); homepage https://stackerbuild.io. technology_category is provisional.
 technology_category: framework
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: App Definition and Development / Application
-      Definition & Image Build / Stacker)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: App Definition and Development
+      / Application Definition & Image Build / Stacker)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - framework
 - app-definition-and-d
 slug: stacker
+assigned_id: dea:technology-stacker-pr4rtp
+admitted: '2026-11-14'

@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Serverless / Framework / Stateful Functions
 type: Technology
 name: Stateful Functions
-description: Stateful Functions — Framework entry in the CNCF Landscape; homepage https://nightlies.apache.org/flink/flink-statefun-docs-master/.
-  technology_category is provisional.
+description: Stateful Functions — Framework entry in the CNCF Landscape; homepage
+  https://nightlies.apache.org/flink/flink-statefun-docs-master/. technology_category
+  is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Serverless / Framework / Stateful Functions)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Serverless / Framework
+      / Stateful Functions)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - serverless
 slug: stateful-functions
+assigned_id: dea:technology-stateful-functions-x7y9va
+admitted: '2026-11-14'

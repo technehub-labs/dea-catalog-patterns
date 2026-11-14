@@ -1,0 +1,38 @@
+id: dea:architecture-pattern-sidecar-rp8ugw
+type: ArchitecturePattern
+name: Sidecar
+description: 'Sidecar — published architecture pattern: Deploy a companion process
+  alongside the primary application process.'
+version: 0.1.0
+lifecycle_status: proposed
+problem: Deploy a companion process alongside the primary application process.
+solution: Cross-cutting features must share the host lifecycle without coupling code.
+applicability:
+- Kubernetes pods; legacy apps extended with helper containers.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published
+      pattern catalog entry: Sidecar)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns,
+    microservices.io, Enterprise Integration Patterns, Google Cloud Architecture).
+    problem/solution/applicability summarize the published entry; maturity is provisional
+    (canonical only for catalogs that self-describe as such).
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- architecture-pattern
+- learn-microsoft-com

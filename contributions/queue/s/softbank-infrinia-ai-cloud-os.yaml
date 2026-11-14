@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Platform / Certified Kubernetes - Hosted / SoftBank Infrinia AI Cloud OS
+source_ref: CNCF Landscape / Platform / Certified Kubernetes - Hosted / SoftBank Infrinia
+  AI Cloud OS
 type: Technology
 name: SoftBank Infrinia AI Cloud OS
-description: SoftBank Infrinia AI Cloud OS — Certified Kubernetes - Hosted entry in the CNCF Landscape;
-  homepage https://www.infrinia.ai. technology_category is provisional.
+description: SoftBank Infrinia AI Cloud OS — Certified Kubernetes - Hosted entry in
+  the CNCF Landscape; homepage https://www.infrinia.ai. technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes - Hosted /
-      SoftBank Infrinia AI Cloud OS)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes
+      - Hosted / SoftBank Infrinia AI Cloud OS)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - platform
 slug: softbank-infrinia-ai-cloud-os
+assigned_id: dea:technology-softbank-infrinia-ai-cloud-os-qbmr4h
+admitted: '2026-11-14'

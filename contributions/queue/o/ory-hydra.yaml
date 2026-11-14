@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Provisioning / Key Management / ORY Hydra
 type: Technology
 name: ORY Hydra
-description: ORY Hydra — Key Management entry in the CNCF Landscape; homepage https://www.ory.sh/. technology_category
-  is provisional.
+description: ORY Hydra — Key Management entry in the CNCF Landscape; homepage https://www.ory.sh/.
+  technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Provisioning / Key Management / ORY Hydra)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Provisioning / Key Management
+      / ORY Hydra)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - provisioning
 slug: ory-hydra
+assigned_id: dea:technology-ory-hydra-knm5zs
+admitted: '2026-11-14'

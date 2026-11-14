@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Platform / Certified Kubernetes - Distribution / Viettel AI Platform
+source_ref: CNCF Landscape / Platform / Certified Kubernetes - Distribution / Viettel
+  AI Platform
 type: Technology
 name: Viettel AI Platform
-description: Viettel AI Platform — Certified Kubernetes - Distribution entry in the CNCF Landscape; homepage
-  https://viettelcloud.vn/. technology_category is provisional.
+description: Viettel AI Platform — Certified Kubernetes - Distribution entry in the
+  CNCF Landscape; homepage https://viettelcloud.vn/. technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes - Distribution
-      / Viettel AI Platform)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes
+      - Distribution / Viettel AI Platform)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - platform
 slug: viettel-ai-platform
+assigned_id: dea:technology-viettel-ai-platform-nar9as
+admitted: '2026-11-14'

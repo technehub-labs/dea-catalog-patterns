@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Training / Distributed Training / Megatron-LM
 type: Technology
 name: Megatron-LM
-description: Megatron-LM — Distributed Training entry in the CNCF Landscape; homepage https://github.com/NVIDIA/Megatron-LM.
-  technology_category is provisional.
+description: Megatron-LM — Distributed Training entry in the CNCF Landscape; homepage
+  https://github.com/NVIDIA/Megatron-LM. technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Training / Distributed Training / Megatron-LM)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Training / Distributed
+      Training / Megatron-LM)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - training
 slug: megatron-lm
+assigned_id: dea:technology-megatron-lm-x24mra
+admitted: '2026-11-14'

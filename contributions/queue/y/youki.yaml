@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Runtime / Container Runtime / youki
 type: Technology
 name: youki
-description: youki — Container Runtime entry in the CNCF Landscape (sandbox project); homepage https://youki-dev.github.io/youki/.
-  technology_category is provisional.
+description: youki — Container Runtime entry in the CNCF Landscape (sandbox project);
+  homepage https://youki-dev.github.io/youki/. technology_category is provisional.
 technology_category: runtime
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Runtime / Container Runtime / youki)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Runtime / Container Runtime
+      / youki)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - runtime
 - runtime
 slug: youki
+assigned_id: dea:technology-youki-59j3fa
+admitted: '2026-11-14'

@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Provisioning / Security & Compliance / Open Policy Administration Layer (OPAL)
+source_ref: CNCF Landscape / Provisioning / Security & Compliance / Open Policy Administration
+  Layer (OPAL)
 type: Technology
 name: Open Policy Administration Layer (OPAL)
-description: Open Policy Administration Layer (OPAL) — Security & Compliance entry in the CNCF Landscape;
-  homepage https://www.opal.ac. technology_category is provisional.
+description: Open Policy Administration Layer (OPAL) — Security & Compliance entry
+  in the CNCF Landscape; homepage https://www.opal.ac. technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Provisioning / Security & Compliance / Open
-      Policy Administration Layer (OPAL))'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Provisioning / Security
+      & Compliance / Open Policy Administration Layer (OPAL))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - provisioning
 slug: open-policy-administration-layer-opal
+assigned_id: dea:technology-open-policy-administration-layer-opal-bu466a
+admitted: '2026-11-14'

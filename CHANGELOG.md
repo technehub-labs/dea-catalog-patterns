@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### AP-CAT-01: ArchitecturePattern/Technology Candidate Admission Batch 02
+
+Admitted 1082 new `ArchitecturePattern/Technology` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +1082, canonical unchanged; queue entries flipped to `admitted`.
+
 ### CR-AP-CAT-04: Pattern/Technology Candidate Admission Batch 01
 
 Admitted 500 new `ArchitecturePattern/Technology` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +500, canonical unchanged; queue entries flipped to `admitted`.

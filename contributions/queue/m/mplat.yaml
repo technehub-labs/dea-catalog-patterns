@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Observability and Analysis / Continuous Optimization / mPLAT
+source_ref: CNCF Landscape / Observability and Analysis / Continuous Optimization
+  / mPLAT
 type: Technology
 name: mPLAT
-description: mPLAT — Continuous Optimization entry in the CNCF Landscape; homepage https://senjufamily.nri.com/mplat/index.html.
-  technology_category is provisional.
+description: mPLAT — Continuous Optimization entry in the CNCF Landscape; homepage
+  https://senjufamily.nri.com/mplat/index.html. technology_category is provisional.
 technology_category: monitoring
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Observability and Analysis / Continuous Optimization
-      / mPLAT)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Observability and Analysis
+      / Continuous Optimization / mPLAT)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - monitoring
 - observability-and-an
 slug: mplat
+assigned_id: dea:technology-mplat-r3666s
+admitted: '2026-11-14'

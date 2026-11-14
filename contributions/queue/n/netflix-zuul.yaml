@@ -1,8 +1,9 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Orchestration & Management / Service Proxy / Netflix Zuul
+source_ref: CNCF Landscape / Orchestration & Management / Service Proxy / Netflix
+  Zuul
 type: Technology
 name: Netflix Zuul
 description: Netflix Zuul — Service Proxy entry in the CNCF Landscape; homepage https://github.com/Netflix/zuul.
@@ -11,12 +12,14 @@ technology_category: orchestration
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management / Service Proxy
-      / Netflix Zuul)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management
+      / Service Proxy / Netflix Zuul)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - orchestration
 - orchestration-manage
 slug: netflix-zuul
+assigned_id: dea:technology-netflix-zuul-n62g82
+admitted: '2026-11-14'
