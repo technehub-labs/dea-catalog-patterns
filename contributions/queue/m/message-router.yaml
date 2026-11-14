@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: Message Router'
+type: ArchitecturePattern
+name: Message Router
+description: 'Message Router — published architecture pattern: Decide dynamically which channel a message
+  goes to based on conditions.'
+problem: Decide dynamically which channel a message goes to based on conditions.
+solution: Consumers should not need to know routing internals.
+applicability: Content-based routing between services.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://www.enterpriseintegrationpatterns.com/patterns/messaging/ (published pattern catalog
+      entry: Message Router)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- enterpriseintegrationpatterns-com
+slug: message-router

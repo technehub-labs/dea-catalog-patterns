@@ -1,0 +1,25 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: Async Request-Reply'
+type: ArchitecturePattern
+name: Async Request-Reply
+description: 'Async Request-Reply — published architecture pattern: Decouple backend processing from a
+  front-end host where the backend processes requests asynchronously.'
+problem: Decouple backend processing from a front-end host where the backend processes requests asynchronously.
+solution: HTTP request/response clients must call long-running operations without holding connections
+  open.
+applicability: Public APIs wrapping long-running background work.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published pattern catalog entry:
+      Async Request-Reply)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- learn-microsoft-com
+slug: async-request-reply

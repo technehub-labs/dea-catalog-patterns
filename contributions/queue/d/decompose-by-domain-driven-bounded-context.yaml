@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: Decompose by Domain-Driven Bounded Context'
+type: ArchitecturePattern
+name: Decompose by Domain-Driven Bounded Context
+description: 'Decompose by Domain-Driven Bounded Context — published architecture pattern: Define services
+  around DDD bounded contexts.'
+problem: Define services around DDD bounded contexts.
+solution: Capability boundaries can still leak domain coupling.
+applicability: Rich domains with explicit context maps.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://microservices.io/patterns/ (published pattern catalog entry: Decompose by Domain-Driven
+      Bounded Context)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- microservices-io
+slug: decompose-by-domain-driven-bounded-context

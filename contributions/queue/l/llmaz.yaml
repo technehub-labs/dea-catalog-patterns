@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: landscape-technologies.json
+source_ref: CNCF Landscape / Inference / Framework / llmaz
+type: Technology
+name: llmaz
+description: llmaz — Framework entry in the CNCF Landscape; homepage https://www.inftyai.com/. technology_category
+  is provisional.
+technology_category: platform
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Inference / Framework / llmaz)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
+    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
+    decision.
+tags:
+- platform
+- inference
+slug: llmaz

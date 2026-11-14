@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: landscape-technologies.json
+source_ref: CNCF Landscape / Orchestration & Management / Service Mesh / Tetrate Service Bridge (TSB)
+type: Technology
+name: Tetrate Service Bridge (TSB)
+description: Tetrate Service Bridge (TSB) — Service Mesh entry in the CNCF Landscape; homepage https://www.tetrate.io/tetrate-service-bridge/.
+  technology_category is provisional.
+technology_category: orchestration
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management / Service Mesh
+      / Tetrate Service Bridge (TSB))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
+    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
+    decision.
+tags:
+- orchestration
+- orchestration-manage
+slug: tetrate-service-bridge-tsb

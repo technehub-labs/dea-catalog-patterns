@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: API Composition'
+type: ArchitecturePattern
+name: API Composition
+description: 'API Composition — published architecture pattern: Implement queries by invoking the services
+  that own the data and composing results in memory.'
+problem: Implement queries by invoking the services that own the data and composing results in memory.
+solution: Cross-service queries cannot join data via SQL.
+applicability: Simple in-memory joins over a handful of services.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://microservices.io/patterns/ (published pattern catalog entry: API Composition)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- microservices-io
+slug: api-composition

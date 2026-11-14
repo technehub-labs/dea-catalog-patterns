@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: Choreography'
+type: ArchitecturePattern
+name: Choreography
+description: 'Choreography — published architecture pattern: Have each service publish events; consumers
+  react without a central orchestrator.'
+problem: Have each service publish events; consumers react without a central orchestrator.
+solution: Central orchestration becomes a bottleneck and single point of coupling across services.
+applicability: Loosely coupled event-driven flows where steps can react independently.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published pattern catalog entry:
+      Choreography)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- learn-microsoft-com
+slug: choreography

@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: Transaction Log Tailing'
+type: ArchitecturePattern
+name: Transaction Log Tailing
+description: 'Transaction Log Tailing — published architecture pattern: Publish events by tailing the
+  database transaction log.'
+problem: Publish events by tailing the database transaction log.
+solution: Application-level outbox code must be avoided.
+applicability: CDC-backed event publication (Debezium-style).
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://microservices.io/patterns/ (published pattern catalog entry: Transaction Log Tailing)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- microservices-io
+slug: transaction-log-tailing

@@ -1,0 +1,26 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: Anti-Corruption Layer'
+type: ArchitecturePattern
+name: Anti-Corruption Layer
+description: 'Anti-Corruption Layer — published architecture pattern: Implement a facade or adapter layer
+  between a modern application and a legacy system to keep domain models clean.'
+problem: Implement a facade or adapter layer between a modern application and a legacy system to keep
+  domain models clean.
+solution: Two subsystems with different domain models must interoperate without either adopting the other's
+  model.
+applicability: Migrating legacy systems incrementally; integrating third-party or external systems.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published pattern catalog entry:
+      Anti-Corruption Layer)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- learn-microsoft-com
+slug: anti-corruption-layer

@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: landscape-technologies.json
+source_ref: CNCF Landscape / Runtime / Cloud Native Storage / Stash by AppsCode
+type: Technology
+name: Stash by AppsCode
+description: Stash by AppsCode — Cloud Native Storage entry in the CNCF Landscape; homepage https://stash.run.
+  technology_category is provisional.
+technology_category: runtime
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Runtime / Cloud Native Storage / Stash by
+      AppsCode)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
+    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
+    decision.
+tags:
+- runtime
+- runtime
+slug: stash-by-appscode

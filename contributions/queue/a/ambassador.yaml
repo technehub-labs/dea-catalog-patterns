@@ -1,0 +1,26 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: Ambassador'
+type: ArchitecturePattern
+name: Ambassador
+description: 'Ambassador — published architecture pattern: Create a helper service that sends network
+  requests on behalf of a consumer service or application.'
+problem: Create a helper service that sends network requests on behalf of a consumer service or application.
+solution: Route requests through an out-of-process proxy that handles cross-cutting connectivity concerns
+  like retry, circuit breaking, and telemetry.
+applicability: Applications that consume remote services where connection handling must be centralized;
+  legacy services that cannot embed client libraries.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published pattern catalog entry:
+      Ambassador)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- learn-microsoft-com
+slug: ambassador

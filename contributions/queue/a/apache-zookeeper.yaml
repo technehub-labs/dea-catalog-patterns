@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: landscape-technologies.json
+source_ref: CNCF Landscape / Orchestration & Management / Coordination & Service Discovery / Apache Zookeeper
+type: Technology
+name: Apache Zookeeper
+description: Apache Zookeeper — Coordination & Service Discovery entry in the CNCF Landscape; homepage
+  https://zookeeper.apache.org/. technology_category is provisional.
+technology_category: orchestration
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management / Coordination
+      & Service Discovery / Apache Zookeeper)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
+    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
+    decision.
+tags:
+- orchestration
+- orchestration-manage
+slug: apache-zookeeper

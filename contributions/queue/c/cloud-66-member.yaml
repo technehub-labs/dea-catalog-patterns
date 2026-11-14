@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: landscape-technologies.json
+source_ref: CNCF Landscape / CNCF Members / Silver / Cloud 66 (member)
+type: Technology
+name: Cloud 66 (member)
+description: Cloud 66 (member) — Silver entry in the CNCF Landscape; homepage https://www.cloud66.com.
+  technology_category is provisional.
+technology_category: platform
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: CNCF Members / Silver / Cloud 66 (member))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
+    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
+    decision.
+tags:
+- platform
+- cncf-members
+slug: cloud-66-member

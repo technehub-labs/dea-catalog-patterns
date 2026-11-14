@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: landscape-technologies.json
+source_ref: CNCF Landscape / CNCF Members / End User Supporter and Contributor / REWE International Dienstleistungsges.m.b.h.
+  (supporter)
+type: Technology
+name: REWE International Dienstleistungsges.m.b.h. (supporter)
+description: REWE International Dienstleistungsges.m.b.h. (supporter) — End User Supporter and Contributor
+  entry in the CNCF Landscape; homepage https://rewe-group.at/de. technology_category is provisional.
+technology_category: platform
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: CNCF Members / End User Supporter and Contributor
+      / REWE International Dienstleistungsges.m.b.h. (supporter))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
+    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
+    decision.
+tags:
+- platform
+- cncf-members
+slug: rewe-international-dienstleistungsges-m-b-h-supp

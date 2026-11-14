@@ -1,0 +1,25 @@
+# Ingestion manifest — ArchitecturePattern/Technology candidate corpus (AP-CAT-03)
+# Records are candidates only (queue status: queued; admitted at
+# lifecycle_status: proposed / version 0.1.0 by the gated workflow).
+
+generated: '2026-11-15'
+generated_by: ingest-kit generate_queue.py (catalog population programme)
+submitted_by: Emmanuel A. Otchere
+record_count: 2282
+sources:
+- bank: curated-catalogs.json
+  source: "Curated published architecture-pattern catalogs (Azure, microservices.io, EIP, Google Cloud)"
+  url: "https://learn.microsoft.com/azure/architecture/patterns/"
+  published: "https://learn.microsoft.com/azure/architecture/patterns/"
+  retrieved: '2026-11-15'
+  sha256: 4491476fb685d981e54b156ea919c5aa78bf13db9e0e369d12109138da818a57
+  records: 85
+- bank: landscape-technologies.json
+  source: "CNCF Landscape (cncf/landscape hosted YAML) \u2014 Technology projection"
+  url: "https://raw.githubusercontent.com/cncf/landscape/main/landscape.yml"
+  published: "https://landscape.cncf.io/"
+  retrieved: '2026-11-15'
+  sha256: 9154265af3203a0585aa9bbb944644e5d2a5eb6fe8898aa729e2105f100fc4b3
+  records: 2197
+queue_layout: contributions/queue/<shard>/<slug>.yaml (entity-storage-layout §4;
+  letter shards; slug prefixes chosen to keep every shard under the 800-entry cap)

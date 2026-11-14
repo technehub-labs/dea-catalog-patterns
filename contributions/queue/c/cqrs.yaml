@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: CQRS'
+type: ArchitecturePattern
+name: CQRS
+description: 'CQRS — published architecture pattern: Segregate operations that read data into separate
+  interfaces from operations that write data.'
+problem: Segregate operations that read data into separate interfaces from operations that write data.
+solution: Read and write workloads have very different models and scaling requirements.
+applicability: Systems where read models can be denormalized for query efficiency.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published pattern catalog entry:
+      CQRS)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- learn-microsoft-com
+slug: cqrs

@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: curated-catalogs.json
+source_ref: 'pattern catalog: Log Aggregation'
+type: ArchitecturePattern
+name: Log Aggregation
+description: 'Log Aggregation — published architecture pattern: Centralize logs from every service instance
+  into one searchable store.'
+problem: Centralize logs from every service instance into one searchable store.
+solution: Per-instance logs are unusable across a fleet.
+applicability: Distributed systems debugging and audit.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://microservices.io/patterns/ (published pattern catalog entry: Log Aggregation)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
+    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
+    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+tags:
+- architecture-pattern
+- microservices-io
+slug: log-aggregation

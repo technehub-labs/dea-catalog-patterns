@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: landscape-technologies.json
+source_ref: CNCF Landscape / CNCF Members / Academic / Pengcheng Laboratory (member)
+type: Technology
+name: Pengcheng Laboratory (member)
+description: Pengcheng Laboratory (member) — Academic entry in the CNCF Landscape; homepage https://pcl.ac.cn.
+  technology_category is provisional.
+technology_category: platform
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: CNCF Members / Academic / Pengcheng Laboratory
+      (member))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
+    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
+    decision.
+tags:
+- platform
+- cncf-members
+slug: pengcheng-laboratory-member
