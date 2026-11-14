@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 
-### AP-CAT-01: ArchitecturePattern/Technology Candidate Admission Batch 02
+### CR-AP-CAT-05: ArchitecturePattern/Technology Candidate Admission Batch 02
 
 Admitted 1082 new `ArchitecturePattern/Technology` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +1082, canonical unchanged; queue entries flipped to `admitted`.
 
@@ -10,7 +10,7 @@ Admitted 1082 new `ArchitecturePattern/Technology` CANDIDATE records through the
 
 Admitted 500 new `ArchitecturePattern/Technology` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +500, canonical unchanged; queue entries flipped to `admitted`.
 
-### AP-CAT-03: ArchitecturePattern/Technology Candidate Corpus
+### CR-AP-CAT-03: ArchitecturePattern/Technology Candidate Corpus
 
 2282 ArchitecturePattern/Technology candidate submissions landed in the contribution queue (sharded, gate-CONFORMANT) from 2 evidence bank(s); published prose + evidence citations + source_refs; provenance in ingestion/manifest.yaml. No catalog entities change; admission follows in AP-CAT-04+.
 
@@ -22,7 +22,7 @@ Gated intake workflow stood up: contribution queue + blocking queue gate (`scrip
 
 Gated intake workflow stood up: contribution queue + blocking queue gate (`scripts/check_contributions.py`, self-deriving from the projected schema) + admission tool (`scripts/admit_entity.py`: content-derived ids, collision-checked, candidates/ subtrees at `lifecycle_status: proposed` / v0.1.0) + intake template and process docs. CI: queue gate added as a blocking step; metaframework pin v2.6.0 → v2.8.0 with the shard-aware toolchain re-vendored from the v2.8.0 release (cmp'd). No records admitted by this CR.
 
-### `CR-AP-CAT-01` — catalogue foundation (kit bring-up)
+### `CR-CR-AP-CAT-05` — catalogue foundation (kit bring-up)
 
 Standard kit generated from the metamodel (org-wide catalog advancement
 programme): hybrid pointer pinned to OpenDEAM v0.8.0;
