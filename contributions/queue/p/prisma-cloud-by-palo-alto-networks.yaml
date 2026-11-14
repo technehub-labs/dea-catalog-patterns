@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Serverless / Security / Prisma Cloud by Palo Alto Networks
 type: Technology
 name: Prisma Cloud by Palo Alto Networks
-description: Prisma Cloud by Palo Alto Networks — Security entry in the CNCF Landscape; homepage https://www.paloaltonetworks.com/prisma/cloud.
-  technology_category is provisional.
+description: Prisma Cloud by Palo Alto Networks — Security entry in the CNCF Landscape;
+  homepage https://www.paloaltonetworks.com/prisma/cloud. technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Serverless / Security / Prisma Cloud by Palo
-      Alto Networks)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Serverless / Security
+      / Prisma Cloud by Palo Alto Networks)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - serverless
 slug: prisma-cloud-by-palo-alto-networks
+assigned_id: dea:technology-prisma-cloud-by-palo-alto-networks-gtm5vc
+admitted: '2026-11-14'

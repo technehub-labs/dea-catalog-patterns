@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Provisioning / Security & Compliance / Paralus
 type: Technology
 name: Paralus
-description: Paralus — Security & Compliance entry in the CNCF Landscape (sandbox project); homepage https://www.paralus.io/.
-  technology_category is provisional.
+description: Paralus — Security & Compliance entry in the CNCF Landscape (sandbox
+  project); homepage https://www.paralus.io/. technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Provisioning / Security & Compliance / Paralus)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Provisioning / Security
+      & Compliance / Paralus)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - provisioning
 slug: paralus
+assigned_id: dea:technology-paralus-5dzsjv
+admitted: '2026-11-14'

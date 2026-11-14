@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Wasm / AI/Machine Learning / WASI NN for TensorFlow Lite
 type: Technology
 name: WASI NN for TensorFlow Lite
-description: WASI NN for TensorFlow Lite — AI/Machine Learning entry in the CNCF Landscape; homepage https://wasmedge.org/docs/develop/rust/wasinn/tensorflow_lite.
-  technology_category is provisional.
+description: WASI NN for TensorFlow Lite — AI/Machine Learning entry in the CNCF Landscape;
+  homepage https://wasmedge.org/docs/develop/rust/wasinn/tensorflow_lite. technology_category
+  is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Wasm / AI/Machine Learning / WASI NN for TensorFlow
-      Lite)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Wasm / AI/Machine Learning
+      / WASI NN for TensorFlow Lite)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - wasm
 slug: wasi-nn-for-tensorflow-lite
+assigned_id: dea:technology-wasi-nn-for-tensorflow-lite-2z5a47
+admitted: '2026-11-14'

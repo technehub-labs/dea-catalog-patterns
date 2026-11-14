@@ -1,24 +1,28 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
 source_ref: 'pattern catalog: Polling Consumer'
 type: ArchitecturePattern
 name: Polling Consumer
-description: 'Polling Consumer — published architecture pattern: Let the consumer pull messages when it
-  is ready.'
+description: 'Polling Consumer — published architecture pattern: Let the consumer
+  pull messages when it is ready.'
 problem: Let the consumer pull messages when it is ready.
 solution: Push delivery can overwhelm a slow consumer.
-applicability: Consumers with their own pacing requirements.
+applicability:
+- Consumers with their own pacing requirements.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.enterpriseintegrationpatterns.com/patterns/messaging/ (published pattern catalog
-      entry: Polling Consumer)'
-  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
-    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
-    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+    reference: 'https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+      (published pattern catalog entry: Polling Consumer)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns,
+    microservices.io, Enterprise Integration Patterns, Google Cloud Architecture).
+    problem/solution/applicability summarize the published entry; maturity is provisional
+    (canonical only for catalogs that self-describe as such).
 tags:
 - architecture-pattern
 - enterpriseintegrationpatterns-com
 slug: polling-consumer
+assigned_id: dea:architecture-pattern-polling-consumer-6v78hh
+admitted: '2026-11-14'

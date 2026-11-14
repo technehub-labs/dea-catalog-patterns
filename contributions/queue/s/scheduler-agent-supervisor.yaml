@@ -1,24 +1,28 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
 source_ref: 'pattern catalog: Scheduler Agent Supervisor'
 type: ArchitecturePattern
 name: Scheduler Agent Supervisor
-description: 'Scheduler Agent Supervisor — published architecture pattern: Coordinate distributed actions
-  across a set of distributed agents.'
+description: 'Scheduler Agent Supervisor — published architecture pattern: Coordinate
+  distributed actions across a set of distributed agents.'
 problem: Coordinate distributed actions across a set of distributed agents.
 solution: Long-running distributed tasks need retry, recovery, and supervision.
-applicability: Complex multi-step jobs across unreliable distributed agents.
+applicability:
+- Complex multi-step jobs across unreliable distributed agents.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published pattern catalog entry:
-      Scheduler Agent Supervisor)'
-  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
-    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
-    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published
+      pattern catalog entry: Scheduler Agent Supervisor)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns,
+    microservices.io, Enterprise Integration Patterns, Google Cloud Architecture).
+    problem/solution/applicability summarize the published entry; maturity is provisional
+    (canonical only for catalogs that self-describe as such).
 tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: scheduler-agent-supervisor
+assigned_id: dea:architecture-pattern-scheduler-agent-supervisor-344ugb
+admitted: '2026-11-14'

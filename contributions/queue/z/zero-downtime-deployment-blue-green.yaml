@@ -1,24 +1,28 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
 source_ref: 'pattern catalog: Zero-Downtime Deployment / Blue-Green'
 type: ArchitecturePattern
 name: Zero-Downtime Deployment / Blue-Green
-description: 'Zero-Downtime Deployment / Blue-Green — published architecture pattern: Run two production
-  environments and switch traffic between them.'
+description: 'Zero-Downtime Deployment / Blue-Green — published architecture pattern:
+  Run two production environments and switch traffic between them.'
 problem: Run two production environments and switch traffic between them.
 solution: Deploys must not interrupt service.
-applicability: Release management behind a switchable front door.
+applicability:
+- Release management behind a switchable front door.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://cloud.google.com/architecture (published pattern catalog entry: Zero-Downtime
-      Deployment / Blue-Green)'
-  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
-    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
-    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+    reference: 'https://cloud.google.com/architecture (published pattern catalog entry:
+      Zero-Downtime Deployment / Blue-Green)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns,
+    microservices.io, Enterprise Integration Patterns, Google Cloud Architecture).
+    problem/solution/applicability summarize the published entry; maturity is provisional
+    (canonical only for catalogs that self-describe as such).
 tags:
 - architecture-pattern
 - cloud-google-com
 slug: zero-downtime-deployment-blue-green
+assigned_id: dea:architecture-pattern-zero-downtime-deployment-blue-green-a3whnm
+admitted: '2026-11-14'

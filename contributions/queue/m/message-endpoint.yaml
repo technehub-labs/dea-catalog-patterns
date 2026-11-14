@@ -1,24 +1,28 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
 source_ref: 'pattern catalog: Message Endpoint'
 type: ArchitecturePattern
 name: Message Endpoint
-description: 'Message Endpoint — published architecture pattern: Use client code that connects application
-  code to the messaging system.'
+description: 'Message Endpoint — published architecture pattern: Use client code that
+  connects application code to the messaging system.'
 problem: Use client code that connects application code to the messaging system.
 solution: Messaging APIs leak into business logic.
-applicability: Isolating messaging concerns behind adapters.
+applicability:
+- Isolating messaging concerns behind adapters.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.enterpriseintegrationpatterns.com/patterns/messaging/ (published pattern catalog
-      entry: Message Endpoint)'
-  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
-    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
-    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+    reference: 'https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+      (published pattern catalog entry: Message Endpoint)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns,
+    microservices.io, Enterprise Integration Patterns, Google Cloud Architecture).
+    problem/solution/applicability summarize the published entry; maturity is provisional
+    (canonical only for catalogs that self-describe as such).
 tags:
 - architecture-pattern
 - enterpriseintegrationpatterns-com
 slug: message-endpoint
+assigned_id: dea:architecture-pattern-message-endpoint-mtdu8r
+admitted: '2026-11-14'

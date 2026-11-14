@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Provisioning / Security & Compliance / SOPS
 type: Technology
 name: SOPS
-description: SOPS — Security & Compliance entry in the CNCF Landscape (sandbox project); homepage https://github.com/getsops.
-  technology_category is provisional.
+description: SOPS — Security & Compliance entry in the CNCF Landscape (sandbox project);
+  homepage https://github.com/getsops. technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Provisioning / Security & Compliance / SOPS)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Provisioning / Security
+      & Compliance / SOPS)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - provisioning
 slug: sops
+assigned_id: dea:technology-sops-257nsh
+admitted: '2026-11-14'

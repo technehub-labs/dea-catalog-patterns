@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Platform / Certified Kubernetes - Hosted / SAP Certified Gardener
+source_ref: CNCF Landscape / Platform / Certified Kubernetes - Hosted / SAP Certified
+  Gardener
 type: Technology
 name: SAP Certified Gardener
-description: SAP Certified Gardener — Certified Kubernetes - Hosted entry in the CNCF Landscape; homepage
-  https://www.sap.com/products/cloud-platform.html. technology_category is provisional.
+description: SAP Certified Gardener — Certified Kubernetes - Hosted entry in the CNCF
+  Landscape; homepage https://www.sap.com/products/cloud-platform.html. technology_category
+  is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes - Hosted /
-      SAP Certified Gardener)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes
+      - Hosted / SAP Certified Gardener)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - platform
 slug: sap-certified-gardener
+assigned_id: dea:technology-sap-certified-gardener-3mzqh3
+admitted: '2026-11-14'

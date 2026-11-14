@@ -1,23 +1,29 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
 source_ref: 'pattern catalog: Service Registration'
 type: ArchitecturePattern
 name: Service Registration
-description: 'Service Registration — published architecture pattern: Register each service instance with
-  a service registry on startup and deregister on shutdown.'
-problem: Register each service instance with a service registry on startup and deregister on shutdown.
+description: 'Service Registration — published architecture pattern: Register each
+  service instance with a service registry on startup and deregister on shutdown.'
+problem: Register each service instance with a service registry on startup and deregister
+  on shutdown.
 solution: The registry must know live instances.
-applicability: Any dynamically scaled service fleet.
+applicability:
+- Any dynamically scaled service fleet.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://microservices.io/patterns/ (published pattern catalog entry: Service Registration)'
-  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
-    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
-    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+    reference: 'https://microservices.io/patterns/ (published pattern catalog entry:
+      Service Registration)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns,
+    microservices.io, Enterprise Integration Patterns, Google Cloud Architecture).
+    problem/solution/applicability summarize the published entry; maturity is provisional
+    (canonical only for catalogs that self-describe as such).
 tags:
 - architecture-pattern
 - microservices-io
 slug: service-registration
+assigned_id: dea:architecture-pattern-service-registration-hg2dv6
+admitted: '2026-11-14'

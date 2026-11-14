@@ -1,24 +1,29 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
 source_ref: 'pattern catalog: Priority Queue'
 type: ArchitecturePattern
 name: Priority Queue
-description: 'Priority Queue — published architecture pattern: Prioritize requests sent to services so
-  that higher-priority requests are consumed faster.'
-problem: Prioritize requests sent to services so that higher-priority requests are consumed faster.
+description: 'Priority Queue — published architecture pattern: Prioritize requests
+  sent to services so that higher-priority requests are consumed faster.'
+problem: Prioritize requests sent to services so that higher-priority requests are
+  consumed faster.
 solution: Mixed-priority workloads share one queue and starve urgent messages.
-applicability: Workloads with SLA-differentiated message classes.
+applicability:
+- Workloads with SLA-differentiated message classes.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published pattern catalog entry:
-      Priority Queue)'
-  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
-    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
-    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+    reference: 'https://learn.microsoft.com/azure/architecture/patterns/ (published
+      pattern catalog entry: Priority Queue)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns,
+    microservices.io, Enterprise Integration Patterns, Google Cloud Architecture).
+    problem/solution/applicability summarize the published entry; maturity is provisional
+    (canonical only for catalogs that self-describe as such).
 tags:
 - architecture-pattern
 - learn-microsoft-com
 slug: priority-queue
+assigned_id: dea:architecture-pattern-priority-queue-cnp5rd
+admitted: '2026-11-14'

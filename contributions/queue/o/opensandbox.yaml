@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Orchestration & Management / Scheduling & Orchestration / OpenSandbox
+source_ref: CNCF Landscape / Orchestration & Management / Scheduling & Orchestration
+  / OpenSandbox
 type: Technology
 name: OpenSandbox
-description: OpenSandbox — Scheduling & Orchestration entry in the CNCF Landscape; homepage https://open-sandbox.ai/.
-  technology_category is provisional.
+description: OpenSandbox — Scheduling & Orchestration entry in the CNCF Landscape;
+  homepage https://open-sandbox.ai/. technology_category is provisional.
 technology_category: orchestration
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management / Scheduling &
-      Orchestration / OpenSandbox)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management
+      / Scheduling & Orchestration / OpenSandbox)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - orchestration
 - orchestration-manage
 slug: opensandbox
+assigned_id: dea:technology-opensandbox-7a3ktd
+admitted: '2026-11-14'

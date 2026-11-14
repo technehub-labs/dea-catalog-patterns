@@ -1,24 +1,28 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
 source_ref: 'pattern catalog: Message Sequence'
 type: ArchitecturePattern
 name: Message Sequence
-description: 'Message Sequence — published architecture pattern: Keep sequences of related messages together
-  for ordered processing.'
+description: 'Message Sequence — published architecture pattern: Keep sequences of
+  related messages together for ordered processing.'
 problem: Keep sequences of related messages together for ordered processing.
 solution: Reordering in transit breaks dependent processing.
-applicability: Streams of ordered events (inserts/updates/deletes).
+applicability:
+- Streams of ordered events (inserts/updates/deletes).
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.enterpriseintegrationpatterns.com/patterns/messaging/ (published pattern catalog
-      entry: Message Sequence)'
-  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
-    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
-    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+    reference: 'https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+      (published pattern catalog entry: Message Sequence)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns,
+    microservices.io, Enterprise Integration Patterns, Google Cloud Architecture).
+    problem/solution/applicability summarize the published entry; maturity is provisional
+    (canonical only for catalogs that self-describe as such).
 tags:
 - architecture-pattern
 - enterpriseintegrationpatterns-com
 slug: message-sequence
+assigned_id: dea:architecture-pattern-message-sequence-t89sfe
+admitted: '2026-11-14'

@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Serverless / Hosted Platform / Tencent Cloud Serverless Cloud Function
+source_ref: CNCF Landscape / Serverless / Hosted Platform / Tencent Cloud Serverless
+  Cloud Function
 type: Technology
 name: Tencent Cloud Serverless Cloud Function
-description: Tencent Cloud Serverless Cloud Function — Hosted Platform entry in the CNCF Landscape; homepage
-  https://cloud.tencent.com/product/scf. technology_category is provisional.
+description: Tencent Cloud Serverless Cloud Function — Hosted Platform entry in the
+  CNCF Landscape; homepage https://cloud.tencent.com/product/scf. technology_category
+  is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Serverless / Hosted Platform / Tencent Cloud
-      Serverless Cloud Function)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Serverless / Hosted Platform
+      / Tencent Cloud Serverless Cloud Function)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - serverless
 slug: tencent-cloud-serverless-cloud-function
+assigned_id: dea:technology-tencent-cloud-serverless-cloud-function-wg2gkf
+admitted: '2026-11-14'

@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / Inference / Runtime / text-generation-inference (TGI)
 type: Technology
 name: text-generation-inference (TGI)
-description: text-generation-inference (TGI) — Runtime entry in the CNCF Landscape; homepage https://huggingface.co/docs/text-generation-inference/index.
-  technology_category is provisional.
+description: text-generation-inference (TGI) — Runtime entry in the CNCF Landscape;
+  homepage https://huggingface.co/docs/text-generation-inference/index. technology_category
+  is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Inference / Runtime / text-generation-inference
-      (TGI))'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Inference / Runtime /
+      text-generation-inference (TGI))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - inference
 slug: text-generation-inference-tgi
+assigned_id: dea:technology-text-generation-inference-tgi-cced6b
+admitted: '2026-11-14'

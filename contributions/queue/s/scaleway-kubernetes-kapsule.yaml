@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Platform / Certified Kubernetes - Hosted / Scaleway Kubernetes Kapsule
+source_ref: CNCF Landscape / Platform / Certified Kubernetes - Hosted / Scaleway Kubernetes
+  Kapsule
 type: Technology
 name: Scaleway Kubernetes Kapsule
-description: Scaleway Kubernetes Kapsule — Certified Kubernetes - Hosted entry in the CNCF Landscape;
-  homepage https://www.scaleway.com/en/betas/. technology_category is provisional.
+description: Scaleway Kubernetes Kapsule — Certified Kubernetes - Hosted entry in
+  the CNCF Landscape; homepage https://www.scaleway.com/en/betas/. technology_category
+  is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes - Hosted /
-      Scaleway Kubernetes Kapsule)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes
+      - Hosted / Scaleway Kubernetes Kapsule)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - platform
 slug: scaleway-kubernetes-kapsule
+assigned_id: dea:technology-scaleway-kubernetes-kapsule-s5kwwz
+admitted: '2026-11-14'

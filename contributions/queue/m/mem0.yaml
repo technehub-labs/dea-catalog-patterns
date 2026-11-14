@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
 source_ref: CNCF Landscape / AI Agent / State and Memory / Mem0
 type: Technology
 name: Mem0
-description: Mem0 — State and Memory entry in the CNCF Landscape; homepage https://mem0.ai/. technology_category
-  is provisional.
+description: Mem0 — State and Memory entry in the CNCF Landscape; homepage https://mem0.ai/.
+  technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: AI Agent / State and Memory / Mem0)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: AI Agent / State and Memory
+      / Mem0)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - ai-agent
 slug: mem0
+assigned_id: dea:technology-mem0-d9ydyb
+admitted: '2026-11-14'

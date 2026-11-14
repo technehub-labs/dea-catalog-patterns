@@ -1,24 +1,28 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
 source_ref: 'pattern catalog: Sharding by Key Range'
 type: ArchitecturePattern
 name: Sharding by Key Range
-description: 'Sharding by Key Range — published architecture pattern: Partition data across nodes by contiguous
-  key ranges.'
+description: 'Sharding by Key Range — published architecture pattern: Partition data
+  across nodes by contiguous key ranges.'
 problem: Partition data across nodes by contiguous key ranges.
 solution: A single node cannot hold or serve the full dataset.
-applicability: Horizontally scalable stores.
+applicability:
+- Horizontally scalable stores.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://cloud.google.com/architecture (published pattern catalog entry: Sharding by Key
-      Range)'
-  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
-    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
-    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+    reference: 'https://cloud.google.com/architecture (published pattern catalog entry:
+      Sharding by Key Range)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns,
+    microservices.io, Enterprise Integration Patterns, Google Cloud Architecture).
+    problem/solution/applicability summarize the published entry; maturity is provisional
+    (canonical only for catalogs that self-describe as such).
 tags:
 - architecture-pattern
 - cloud-google-com
 slug: sharding-by-key-range
+assigned_id: dea:architecture-pattern-sharding-by-key-range-tm4eqw
+admitted: '2026-11-14'

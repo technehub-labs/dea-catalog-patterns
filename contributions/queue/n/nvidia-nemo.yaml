@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / AI Native Infra / Orchestration and Scheduling / Nvidia NeMo
+source_ref: CNCF Landscape / AI Native Infra / Orchestration and Scheduling / Nvidia
+  NeMo
 type: Technology
 name: Nvidia NeMo
-description: Nvidia NeMo — Orchestration and Scheduling entry in the CNCF Landscape; homepage https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/index.html.
+description: Nvidia NeMo — Orchestration and Scheduling entry in the CNCF Landscape;
+  homepage https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/index.html.
   technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: AI Native Infra / Orchestration and Scheduling
-      / Nvidia NeMo)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: AI Native Infra / Orchestration
+      and Scheduling / Nvidia NeMo)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - ai-native-infra
 slug: nvidia-nemo
+assigned_id: dea:technology-nvidia-nemo-daycqe
+admitted: '2026-11-14'

@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Platform / Certified Kubernetes - Distribution / Mirantis Kubernetes Engine
+source_ref: CNCF Landscape / Platform / Certified Kubernetes - Distribution / Mirantis
+  Kubernetes Engine
 type: Technology
 name: Mirantis Kubernetes Engine
-description: Mirantis Kubernetes Engine — Certified Kubernetes - Distribution entry in the CNCF Landscape;
-  homepage https://www.mirantis.com/software/mirantis-kubernetes-engine/. technology_category is provisional.
+description: Mirantis Kubernetes Engine — Certified Kubernetes - Distribution entry
+  in the CNCF Landscape; homepage https://www.mirantis.com/software/mirantis-kubernetes-engine/.
+  technology_category is provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes - Distribution
-      / Mirantis Kubernetes Engine)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Platform / Certified Kubernetes
+      - Distribution / Mirantis Kubernetes Engine)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - platform
 slug: mirantis-kubernetes-engine
+assigned_id: dea:technology-mirantis-kubernetes-engine-h9nmb5
+admitted: '2026-11-14'

@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / CNCF Members / End User Supporter and Contributor / Swiss Post (contributor)
+source_ref: CNCF Landscape / CNCF Members / End User Supporter and Contributor / Swiss
+  Post (contributor)
 type: Technology
 name: Swiss Post (contributor)
-description: Swiss Post (contributor) — End User Supporter and Contributor entry in the CNCF Landscape;
-  homepage https://www.swisspost.com/. technology_category is provisional.
+description: Swiss Post (contributor) — End User Supporter and Contributor entry in
+  the CNCF Landscape; homepage https://www.swisspost.com/. technology_category is
+  provisional.
 technology_category: platform
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: CNCF Members / End User Supporter and Contributor
-      / Swiss Post (contributor))'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: CNCF Members / End User
+      Supporter and Contributor / Swiss Post (contributor))'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - platform
 - cncf-members
 slug: swiss-post-contributor
+assigned_id: dea:technology-swiss-post-contributor-6had3b
+admitted: '2026-11-14'

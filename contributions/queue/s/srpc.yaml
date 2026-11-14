@@ -1,8 +1,9 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: landscape-technologies.json
-source_ref: CNCF Landscape / Orchestration & Management / Remote Procedure Call / SRPC
+source_ref: CNCF Landscape / Orchestration & Management / Remote Procedure Call /
+  SRPC
 type: Technology
 name: SRPC
 description: SRPC — Remote Procedure Call entry in the CNCF Landscape; homepage https://github.com/sogou/srpc.
@@ -11,12 +12,14 @@ technology_category: orchestration
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management / Remote Procedure
-      Call / SRPC)'
-  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category is a provisional
-    programmatic mapping from the landscape category; per-organization classification is a canonical-admission
-    decision.
+    reference: 'https://landscape.cncf.io/ (CNCF Landscape: Orchestration & Management
+      / Remote Procedure Call / SRPC)'
+  rationale: Cited from the CNCF Landscape (cncf/landscape hosted YAML). technology_category
+    is a provisional programmatic mapping from the landscape category; per-organization
+    classification is a canonical-admission decision.
 tags:
 - orchestration
 - orchestration-manage
 slug: srpc
+assigned_id: dea:technology-srpc-azgnw9
+admitted: '2026-11-14'

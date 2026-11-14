@@ -1,24 +1,30 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
 source_ref: 'pattern catalog: Service Discovery / Client-Side Discovery'
 type: ArchitecturePattern
 name: Service Discovery / Client-Side Discovery
-description: 'Service Discovery / Client-Side Discovery — published architecture pattern: The client queries
-  a service registry to discover available instances and load-balances locally.'
-problem: The client queries a service registry to discover available instances and load-balances locally.
+description: 'Service Discovery / Client-Side Discovery — published architecture pattern:
+  The client queries a service registry to discover available instances and load-balances
+  locally.'
+problem: The client queries a service registry to discover available instances and
+  load-balances locally.
 solution: Instances scale dynamically and fixed endpoints break.
-applicability: Containerized services with dynamic instance lists.
+applicability:
+- Containerized services with dynamic instance lists.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://microservices.io/patterns/ (published pattern catalog entry: Service Discovery
-      / Client-Side Discovery)'
-  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
-    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
-    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+    reference: 'https://microservices.io/patterns/ (published pattern catalog entry:
+      Service Discovery / Client-Side Discovery)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns,
+    microservices.io, Enterprise Integration Patterns, Google Cloud Architecture).
+    problem/solution/applicability summarize the published entry; maturity is provisional
+    (canonical only for catalogs that self-describe as such).
 tags:
 - architecture-pattern
 - microservices-io
 slug: service-discovery-client-side-discovery
+assigned_id: dea:architecture-pattern-service-discovery-client-side-discovery-st3822
+admitted: '2026-11-14'

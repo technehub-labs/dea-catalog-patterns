@@ -1,24 +1,29 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: curated-catalogs.json
 source_ref: 'pattern catalog: Message Channel'
 type: ArchitecturePattern
 name: Message Channel
-description: 'Message Channel — published architecture pattern: Connect applications using a channel where
-  one app writes and another reads information.'
-problem: Connect applications using a channel where one app writes and another reads information.
+description: 'Message Channel — published architecture pattern: Connect applications
+  using a channel where one app writes and another reads information.'
+problem: Connect applications using a channel where one app writes and another reads
+  information.
 solution: Point-to-point API calls couple sending and receiving applications.
-applicability: Any decoupled integration between applications.
+applicability:
+- Any decoupled integration between applications.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://www.enterpriseintegrationpatterns.com/patterns/messaging/ (published pattern catalog
-      entry: Message Channel)'
-  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns, microservices.io, Enterprise
-    Integration Patterns, Google Cloud Architecture). problem/solution/applicability summarize the published
-    entry; maturity is provisional (canonical only for catalogs that self-describe as such).
+    reference: 'https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+      (published pattern catalog entry: Message Channel)'
+  rationale: Cited from a published pattern catalog (Azure Cloud Design Patterns,
+    microservices.io, Enterprise Integration Patterns, Google Cloud Architecture).
+    problem/solution/applicability summarize the published entry; maturity is provisional
+    (canonical only for catalogs that self-describe as such).
 tags:
 - architecture-pattern
 - enterpriseintegrationpatterns-com
 slug: message-channel
+assigned_id: dea:architecture-pattern-message-channel-9vq87g
+admitted: '2026-11-14'
