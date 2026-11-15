@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### CR-AP-CAT-07: Canonical Admission Wave
+
+2282 ArchitecturePattern/Technology records promoted from the candidate slot to the canonical slot (provenance ladder completed per record; evidence citations preserved; ids untouched). Index: canonical 2282, candidates 0. All gates green.
+
 ### CR-AP-CAT-05: ArchitecturePattern/Technology Candidate Admission Batch 02
 
 Admitted 1082 new `ArchitecturePattern/Technology` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +1082, canonical unchanged; queue entries flipped to `admitted`.
